@@ -1,0 +1,104 @@
+﻿Title,Number,Symptom,Root cause,Features,Fix,Notes
+Model input names are not preserved during TFLite conversion when inference_input_type is tf.int8,889,"layer information lost during conversion, wrong result",API misuse (user),"model:tflite, technique:quantize",use the signature concept,
+QAT with trainable=False does not work as expected.,881,"""non-trainable"" weights are changed, wrong result",,technique:quantize,,
+G,876,N/A,,invalid,,No detailed information
+How to prune a custom tensor? The tensor is a recursive variable and is initialized with tf.zeros.,875,N/A,,"layer:custom, technique:prune",,Question
+"QAT in Keras, the layers.Concatenete op is not supported !",874,"ValueError, runtime error",unsupported layer,"layer:custom, layer:keras, technique:quantize",Upgrade tf (2.3 → 2.6),
+Quantizing model at runtime during training results in non-learned quantization,869,"inputs are not quantized, wrong result",,"runtime QAT, technique:quantize",,Not reproduced
+QAT model saving bug : KeyError: '__inference_depthwise_conv2d_layer_call_fn_126,868,"KeyError, runtime error",incorrect shape,"model I/O, technique:quantize",,
+Keras TFOpLambda may conflict with quantization,867,"AttributeError, runtime error",unsupported layer,"layer:TFOpLambda, layer:keras, model I/O, technique:quantize",,Possible workaround provided
+Pruning error of transfer learning model MobilenetV3 Large !,864,"ValueError, runtime error",unsupported layer,"model:keras, technique:prune",,
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float,835,"TypeError, runtime error",,invalid,,No detailed information
+"https://www.tensorflow.org/model_optimization/guide/pruning/pruning_with_keras when sparsity.UpdatePruningStep() is added in the callbacks list, the following error is shown:",827,N/A,,invalid,,No detailed information
+Model with SeparableConvs not converting to QAT,823,wrong result,interaction between tensor/non-tensor layer,"layer:SeperableConv, layer:TFOpLambda, layer:keras, model I/O, technique:quantize",,
+WARNING:tensorflow:AutoGraph could not transform <tensorflow_model_optimization.python.core.quantization.keras.quantizers.AllValuesQuantizer object at 0x7f92927f3f90> and will run it as-is.,813,warning,,technique:quantize,,
+Activity Regularizer not working with quantization aware training (QAT),802,"AttributeError, runtime error",,"layer:keras, technique:quantize",,
+[clustering] Possible wrong implementation of get_weight_from_layer,799,"calcuation error, wrong result","API misuse (user), misuse:get_clusterable_weights",technique:cluster,,
+Performance issue in the program,795,performance,loop variable,,https://github.com/tensorflow/model-optimization/pull/815,
+ValueError: Unknown object OutputOnlyConfig,773,"ValueError, runtime error",unsupported layer,"OutputOnlyConfig, technique:quantize",https://github.com/tensorflow/model-optimization/pull/774,
+wrong inference results of qat int8 model with Conv2DTranspose.,771,"calcuation error, wrong result",,"layer:Conv2DTranspose, technique:quantize",,
+RuntimeError: Layer backbone.stage0.0.fuse_layersb2.1.0.0.1:<class 'tensorflow.python.keras.layers.normalization_v2.BatchNormalization'> is not supported. You can quantize this layer by passing a tfmot.quantization.keras.QuantizeConfig instance to the quantize_annotate_layer API.,763,"RuntimeError, runtime error",unsupported layer,"layer:BatchNormalization, need:QuantizeConfig, technique:quantize",,
+"pruning cannnot reduce .h5 model size ",760,wrong result,API misuse (user),technique:prune,,
+Error processing property '_dropout_mask_cache' when using PrunableLayer with DropoutRNNCellMixin,753,"TypeError, ValueError, runtime error",incorrect type,"layer:RNN, technique:prune",https://github.com/tensorflow/model-optimization/commit/cad07f36b6aa0b3092c0c9cd0e7a9d74b8c36c48,Use model.layers to search prunable layers instead of model.submodules.
+Issue loading model with Conv2DTranspose,751,"KeyError, ValueError, runtime error",unsupported layer,"layer:Conv2DTranspose, need:Default8BitConvTransposeQuantizeConfig, technique:quantize",,
+Running MobileNet on XNNPACK,735,"ValueError, runtime error",,"PruneForLatencyOnXNNPack, model:keras, technique:prune",,
+Assertion error with custom quantize config with per_axis=True,723,"Wrong shape, runtime error",unsupported layer,"layer:custom, technique:quantize",,Feature request. TODO.
+Puring cannot reduce tflite model size,722,"non-positive optimization, wrong result",API misuse (user),"model:tflite, technique:prune",,
+.../api/quantization/keras/default_8bit missing from the pip package for version 0.5.0,714,"AttributeError, runtime error",unsupported layer,"need:Default8BitQuantizeScheme, technique:quantize",Upgrade tfmot (0.5.0 → 0.5.1),
+Converting a pruning model in a TFlite model,668,"InvalidArgumentError, runtime error",incorrect type,technique:prune,,https://stackoverflow.com/questions/60583904/tensorflow-converting-a-pruned-model-to-a-lower-quantization-with-tflite
+Error reported when prunning one tf-keras layer,662,"AssertionError, runtime error",,"lifecycle:train, technique:prune",,
+Cannot quantise a model with a MultiHeadAttention layer,661,"Wrong shape, runtime error",incorrect shape,"layer:MultiHeadAttention, technique:quantize",https://github.com/tensorflow/model-optimization/commit/3d73ed2e8676ff2585a7086e283a01fb155c3580,
+Clustering wrapper will not build with more than one clusterable weight,659,"ValueError, runtime error",unsupported layer,technique:cluster,https://github.com/tensorflow/model-optimization/pull/616,
+can not quantize SeparableConv2D layer for QAT,655,"IndexError, runtime error",unsupported layer,"layer:SeparableConv2D, technique:quantize",PR #607,
+TypeError: tf__call() got an unexpected keyword argument 'name',652,"TypeError, runtime error",API misuse (user),technique:quantize,Change reshape API: tf.reshape → keras.layers.Reshape,
+Problem regarding loading a QAT SavedModel,644,"KeyError, runtime error",,"model I/O, technique:quantize",,
+Error creating graph: Invalid argument: Input 0 of node quant_conv1/cond/LastValueQuant/AssignMinLast was passed float from quant_conv1/cond/LastValueQuant/AssignMinLast/Switch:1 incompatible with expected resource,643,"InvalidArgumentError, runtime error",,"model I/O, technique:quantize",,
+Creating a saved_model_dir in google colab? -- Converting pb model to tflite,640,N/A,API misuse (user),model I/O,,
+prune_low_magnitude is not working on tf<2.4,636,"TypeError, runtime error",unsupported layer,technique:prune,Upgrade tf to 2.4,
+Symmetric quantization returns nonzero value for 0 on GPU,635,"calcuation error, wrong result",tf upstream,technique:quantize,PR tf#48580,
+OOM errors when running tests with bazel,633,"out of memory, runtime error",API misuse (user),submodule:testing,PR #630,
+Sparsity is not correctly checked in pruning integration test,631,N/A,API misuse (user),submodule:testing,PR #630,
+Possible tolerance issue for transpose_conv,627,test tailed,,submodule:testing,,temporal error
+0.5.0 in Pypi does not match the zip in github releases,623,N/A,N/A,invalid,,pypi issue
+"After QAT and TFLite converter, the type of input and output of averagepooling2d node is not same",622,"Wrong shape, wrong result",tf upstream,technique:quantize,Upgrade to tf 2.6.0 rc0,
+ValueError: Unknown layer: AnchorBoxes quantization,620,"ValueError, runtime error",API misuse (user),technique:quantize,Fix call argument,
+Can not use load_model() for quantized models (.pb format),608,"KeyError, runtime error",API misuse (user),model I/O,Use model in .h5 format,
+Converting model to tflite without optimization option,605,N/A,N/A,invalid,,Question
+Cannot restore a checkpoint on a pruned model without 'Unresolved object in checkpoint: (root).optimizer.*',603,warning,API misuse (user),"model I/O, technique:prune",,
+Polynomial decay for pruning schedule doesn't prune the weight,601,"non-positive optimization, wrong result",,"layer:Conv2DTranspose, schedule:PolynomialDecay, technique:prune",,
+" After quantization aware training, the inference time of the int8 tflite model is slower than float32 in the CPU",599,"non-positive optimization, performance","platform optimization, tf upstream",technique:quantize,#657,
+Model: Quantization Aware Training,595,"TypeError, runtime error",N/A,technique:quantize,tf 2.3.1,
+Unable to get tfmot version from API,594,lack of API,N/A,invalid,next release,feature request
+Unable To Prune Subclassed Keras Model With Custom Loop,590,"AttributeError, runtime error",API misuse (user),technique:prune,build the model first,
+4bit trained model with TFMOT not able to convert to tflite with 4bit data range,574,"calcuation error, wrong result",unsupported feature,model I/O,won't fix,Upstream not supported
+AttributeError: 'NoOpActivation' object has no attribute '__name__',556,"AttributeError, runtime error",,technique:quantize,tf 2.4.1,
+CONV+BN+ReLU doesn't get merged with custom quantization,552,"logic error on layers, wrong result",unsupported layer,"layer:SeperableConv, technique:quantize",,
+"Pattern matching messes the network architecture wih custom quantization ",550,"logic error on layers, wrong result",unsupported layer,"layer:custom, technique:quantize",tfmot 0.5,
+quantization.keras.quantize_model function runtime error with mobilenet v3,546,"TypeError, runtime error",unsupported layer,model I/O,,
+what's difference between tfmot and 'Graph Transform Tool',528,N/A,N/A,invalid,,Question
+QAT with custom QuantizeConfig results in a tensor output mismatch error for Dense layers on export,526,"Wrong shape, wrong result",,technique:quantize,tf-2.4.0,
+Mismatch in number of weights when loading quantized model (activation layer),524,"Wrong shape, runtime error, wrong result",,"model I/O, technique:quantize",,
+"CONV2D, DENSE layer with default QAT can't generate correct int8 quantized nodes in TFLite model",523,"layer weights are not quantized, wrong result",,technique:quantize,,possible workaround
+Quantization aware training can not save weights  as uint8?,457,"TypeError, wrong result",API misuse (user),technique:quantize,Use tflite,
+Can't de serialize PolynomialDecay pruning schedule (and potentially others,456,"TypeError, runtime error",API misuse (user),technique:prune,Give full properties of config (including class name),
+How to user quantize to imporve inference performance on tensorflow-serving?,450,"non-positive optimization, same performance, wrong result",,technique:quantize,,
+Model Optimize unable to get Tensorflow version,448,"AttributeError, runtime error",unsupported feature,"feature request, technique:all",Set tf.__version__,
+QAT model lower accuracy than post train quant model,439,"non-positive optimization, wrong result",,technique:quantize,,
+Unable to prune conv2D layer,434,"ValueError, runtime error","API misuse (user), incorrect type",technique:prune,Change Tensor to Layer,
+Spurious Dequantize/Cast/Quantize sequence of ops at the end of a QAT TFLite model.,431,"Wrong shape, wrong result",,"model I/O, model:tflite, technique:quantize",Upgrade to tf2.4,
+4bit activation accuracy is very low,430,"low accuracy, wrong result",unsupported feature,technique:quantize,,4-bit is too low to keep the accuracy
+AttributeError: type object 'TFLiteConverterV2' has no attribute 'from_keras_model_file',429,"AttributeError, runtime error",API misuse (user),model I/O,from_keras_model_file → from_keras_model,
+"Issue with loading quantization aware trained model ",426,"KeyError, runtime error",,"model I/O, technique:quantize",from 2.2 to tf 2.3.0-rc2,
+Is there any way to apply QuantizeConfig for Model used from Keras Modelzoo?,424,N/A,N/A,"invalid, technique:quantize",,question
+Getting an error when creating the .tflite file,412,"RuntimeError, runtime error","tf upstream, unsupported layer","model:tflite, technique:quantize",tf 2.4.0-rc1,
+"Getting an error when creating the .tflite file from tensorflow quantization exmaple ",410,runtime error,API misuse (user),technique:quantize,deprecated from 1.15.0,
+Behaviour of stripped models and sequence masking,403,"low accuracy, wrong result",,"layer:LSTM, technique:prune",,
+"An errors on running the example：ValueError: Please initialize `Prune` with a supported layer. Layers should either be a `PrunableLayer` instance, or should be supported by the PruneRegistry. You passed: <class 'tensorflow.python.keras.layers.recurrent.LSTM'>",401,"TypeError, runtime error","incorrect type, unsupported layer","layer:LSTM, technique:prune",PR #414 Change LSTM package,
+Magnitude-based weight pruning with Keras doesn't work with actual Keras models,393,"TypeError, runtime error","incorrect type, unsupported layer","clarifying document, technique:prune",,
+"AttributeError: 'NoneType' object has no attribute 'iterations' ",390,"AttributeError, runtime error",API misuse (user),technique:prune,Compile the model again,
+BatchNorm not in PruneRegistry,386,"RuntimeError, runtime error",unsupported layer,"layer:BatchNormalization, technique:prune",tf 2.2.0,
+H5 to Pb Conversion with Fake Quantization Node Fails,381,"ValueError, runtime error",,"format conversion, model I/O, technique:quantize",,
+"use keras.Sequential(Conv2D,BatchNormalization)  convert quantize_model got error",378,"ValueError, runtime error",wrong array index,"layer:BatchNormalization, layer:Conv2DTranspose, technique:quantize",PR #402,
+"Please initialize `Prune` with a supported layer. Layers should either be a `PrunableLayer` instance, or should be supported by the PruneRegistry. You passed: <class 'tensorflow.python.keras.layers.wrappers.Bidirectional'>",374,"ValueError, runtime error",unsupported layer,"layer:Bidirectional, technique:prune",Implement get_prunable_weights,
+Layer up_sampling2d_36:<class 'tensorflow.python.keras.layers.convolutional.UpSampling2D'> is not supported. ou can quantize this layer by passing a `tfmot.quantization.keras.QuantizeConfig` instance to the `quantize_annotate_layer` API.,372,"RuntimeError, runtime error",unsupported layer,"layer:UpSampling2D, technique:quantize",Pass QuantizeConfig,
+Low accuracy of TF-Lite model for Mobilenet (Quantization aware training),368,"low accuracy, wrong result",tf upstream,"model:tflite, technique:quantize",tf-nightly 2020-5-5,
+"quantize_model and tf.keras.mixed_precision.experimental.Policy(""mixed_float16"") throws ValueError",367,"ValueError, runtime error",,technique:quantize,,
+Support Dense+BatchNorm in QAT,363,"RuntimeError, runtime error",unsupported layer,"layer:BatchNormalization, technique:quantize",,
+TFLite conversion with post-training quantization after quantization-aware training of simple CNN model fails,353,runtime error,,"invalid, model:tflite, technique:quantize",,No detailed information. Duplicated #352
+TFLite conversion with quantization after quantization-aware training of simple CNN model fails,352,runtime error,unsupported feature,"model:tflite, technique:quantize",,
+"module 'tensorflow_model_optimization' has no attribute 'quantization' ",341,"AttributeError, runtime error","API misuse (user), tf upstream",technique:quantize,Upgrade tf,
+TEST failures,332,test tailed,N/A,"invalid, technique:all",,Not a bug
+"Weight name conflicts when keras model consists of subclassed layer ",317,"ValueError, Wrong shape, layer information conflicts, runtime error",,"layer:Subclass, technique:quantize",Fixed before 2021-4-15,
+Failed to convert quantization-aware trained MNIST model in examples because of `FAKE_QUANT`,316,"RuntimeError, runtime error",unsupported layer,technique:quantize,upgrade tf,
+Quantization: QuantizeModelsTest.testModelEndToEnd() function does not check the correctness of quantization process,309,"low accuracy, wrong result",,technique:quantize,,Duplicated #368
+Some errors on running the example: https://github.com/tensorflow/model-optimization/blob/master/tensorflow_model_optimization/python/examples/quantization/keras/mnist_cnn.py,308,"AttributeError, runtime error","API misuse (user), unsupported feature",technique:quantize,upgrade tf to 2,
+run quantize mnist_cnn.py  errors,300,"AttributeError, runtime error",model different version,"model:tflite, technique:quantize",tf 1.14 vs tf 2.x,
+Another error when covert the model to tflite:  Unknown activation function:,296,N/A,N/A,"invalid, technique:quantize",,No detailed infomation
+"The example does not work,  got a error: 'QuantizeAwareActivation' object has no attribute '__name__'",295,"ValueError, runtime error",unsupported layer,"layer:Subclass, technique:quantize",PR #322,
+Quantization: Several issues with quantize_model function,292,"ValueError, runtime error",unsupported layer,technique:quantize,PR #322,
+Pruning not working for tf.keras.Batchnorm,224,"ValueError, runtime error","model different version, unsupported layer","layer:BatchNormalization, technique:prune",tf.compat.v1.keras.layers.BatchNormalization,
+Pruning: Training with Near 100% Target Sparsity Fails,215,"InvalidArgumentError, runtime error",incorrect shape,technique:prune,PR #576,Hight sparsity
+do you have the pruning api for tensorflow model?,52,N/A,N/A,"invalid, technique:prune",,question
+raise FailedPreconditionError while training model,46,"FailedPreconditionError, runtime error",,technique:prune,,
+"ValueError: Variable <tf.Variable 'conv2d_286/kernel:0' shape=(3, 3, 3, 32) dtype=float32> has `None` for gradient. Please make sure that all of your ops have a gradient defined (i.e. are differentiable).",3,"ValueError, runtime error","layer interaction, unsupported layer",technique:prune,Remove custom layers,
+Weight miss-match when saving a QAT model with a particular layer pattern,887,"ValueError, runtime error",,technique:quantize,,

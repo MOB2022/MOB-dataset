@@ -1,0 +1,368 @@
+﻿title,state,html_url,Features,Notes
+[Feature request] Support for quantized (INT8) training and inference,closed,https://github.com/pytorch/pytorch/issues/7553,"Feature request, invalid",
+[proposal] [discussion] Refactor pruning/weight_norm/spectral_norm using new Reparametrization functionality,open,https://github.com/pytorch/pytorch/issues/7313,"Feature request, invalid",
+FX: log spew during FX graph mode quantization due to get_attr targeting packed_params,closed,https://github.com/pytorch/pytorch/issues/70083,"Not a bug, invalid",
+Anaconda nightly builds don't prune osx-arm64 platform,open,https://github.com/pytorch/pytorch/issues/70043,"CI/CD, invalid",
+fx graph mode quant - torch.sort after quantization not scriptable,open,https://github.com/pytorch/pytorch/issues/69977,"RuntimeError, Unsupported",No attribute ‘dequantize’
+quantized batchnorm parameters/buffers not saved in state_dict,open,https://github.com/pytorch/pytorch/issues/69808,"Information missing, Wrong result",parameters not saved in state_dict
+[quant] Add support for ConvTranspose2d + BN fusion,open,https://github.com/pytorch/pytorch/issues/69797,"Feature request, invalid",
+DBR quant - delete floating point weights after weight packing,open,https://github.com/pytorch/pytorch/issues/69536,"Feature request, invalid",
+DBR quant - add test for serialization,open,https://github.com/pytorch/pytorch/issues/69535,"Feature request, Testing, invalid",
+[quantization] Failed to save & reload quantized model,closed,https://github.com/pytorch/pytorch/issues/69426,"Users' API misuse, invalid",
+[feature request] quantized operators on CUDA,open,https://github.com/pytorch/pytorch/issues/69364,"Feature request, invalid",
+"[feature request] More masked reductions: amin/amax, argmin/argmax, quantile, mean/var/std/std_mean/var_mean",open,https://github.com/pytorch/pytorch/issues/69359,"Feature request, invalid",
+torch.max/torch.min in Fx quantization might have a tuple ouput,open,https://github.com/pytorch/pytorch/issues/69307,invalid,
+"The quantization scripts of TorchVision no longer work using the latest nightly of Core ",closed,https://github.com/pytorch/pytorch/issues/69235,"RuntimeError, Unsupported",QAT of TorchVision
+distributed/algorithms/ddp_comm_hooks/test_ddp_hooks and distributed/algorithms/quantization/test_quantization don't run in OSS CI,open,https://github.com/pytorch/pytorch/issues/69017,"CI/CD, Testing, invalid",
+ONNX export support for quantize_fx,open,https://github.com/pytorch/pytorch/issues/68638,"RuntimeError, Unsupported",ONNX since 1.10
+quantization of basic 3D ops missing?,closed,https://github.com/pytorch/pytorch/issues/68635,"RuntimeError, Unsupported",conv3d
+Change comparison strategy for quantized tensors,open,https://github.com/pytorch/pytorch/issues/68548,"Feature request, invalid",
+Quantization: torch._make_per_channel_quantized_tensor doesn't work well,closed,https://github.com/pytorch/pytorch/issues/68322,"RuntimeError, Shape error",Setting strides is possible only on uniformly quantized tensor
+quantized linear dynamic should get reduce range from the observer rather than overwritting it in qnnpack/fbgemm,open,https://github.com/pytorch/pytorch/issues/68278,"Layer operation, Wrong result",not working for qnnpack
+FX graph mode quantization broken for torchvision MobileNetV3,open,https://github.com/pytorch/pytorch/issues/68250,"RuntimeError, Unsupported",MobileNetV3
+Support for quantized model's function,closed,https://github.com/pytorch/pytorch/issues/67967,"RuntimeError, Unsupported",Parameter iterator
+how to set the quantized data type in QAT,closed,https://github.com/pytorch/pytorch/issues/67965,"invalid, question",
+"Trying to quantize and save a pre-trained deberta model, where i get a runtime error ",open,https://github.com/pytorch/pytorch/issues/67687,"RuntimeError, Unsupported",Function XSoftmax
+MultiHeadAttention in quantizable seems incorrect with batch_first=True,open,https://github.com/pytorch/pytorch/issues/67651,"Layer operation, Wrong result",Wrong concat of tensors
+torch.kthvalue (and maybe torch.quantile) should support argument descending/largest (=True) like topk/sort,open,https://github.com/pytorch/pytorch/issues/67597,"Feature request, invalid",
+RuntimeError: quantile() input tensor is too large,closed,https://github.com/pytorch/pytorch/issues/67592,"Users' API misuse, invalid",
+" fx graph mode quantizing error  ",open,https://github.com/pytorch/pytorch/issues/67030,"RuntimeError, Type error",List rather than Tuple
+[feature request][quant] Support FakeQuant qconfigs in `test_module_init`,open,https://github.com/pytorch/pytorch/issues/66224,"Feature request, invalid",
+pytorch mobile: some quant models on android cause memory leak,open,https://github.com/pytorch/pytorch/issues/65734,invalid,No detailed info
+"IN the Quantization Aware Training ,when should do quant  and dequant time?",closed,https://github.com/pytorch/pytorch/issues/65321,"invalid, question",
+[quant] Add support for Embedding/EmbeddingBag quantization via dynamic quant APIs,closed,https://github.com/pytorch/pytorch/issues/65185,"Feature request, invalid",
+Add custom quantization for saved for backwards tensors,closed,https://github.com/pytorch/pytorch/issues/64729,"Feature request, invalid",
+torch.ops.quantized.add should handle variable sized arguments,closed,https://github.com/pytorch/pytorch/issues/64660,"RuntimeError, Shape error",Variable sized arguments
+Discrepancy in quantization with Pytorch 1.10,closed,https://github.com/pytorch/pytorch/issues/64564,"Invalid value, RuntimeError",FakeQuantize in 1.10
+torch.onnx.export crash while export quantized model,open,https://github.com/pytorch/pytorch/issues/64477,"RuntimeError, Unsupported",ONNX
+Cannot reproduce Pytorch quantized conv2d using own code,closed,https://github.com/pytorch/pytorch/issues/63769,"Wrong result, invalid",No detailed info
+[quant] Remove dtype arg requirement from `torch.empty_quantized`,closed,https://github.com/pytorch/pytorch/issues/63234,"RuntimeError, Type error",remove the type assertion
+torch.jit.trace quantized bigbird leads to 0INTERNAL ASSERT FAILED runtime error,open,https://github.com/pytorch/pytorch/issues/63124,"AssertionError, RuntimeError, Shape error",
+"when call `torch.onnx.export()`, the graph is pruned by default ? how to cancel pruning",closed,https://github.com/pytorch/pytorch/issues/62951,"Feature request, invalid",
+How can I get output of the intermediate layers with quantized jit model,closed,https://github.com/pytorch/pytorch/issues/62287,"invalid, question",
+torch.save/load lost some attributes for quantized model,open,https://github.com/pytorch/pytorch/issues/61881,"I/O, Information missing, Wrong result",
+[quant] Add support for floating point zero_point in fake_quantize ops,closed,https://github.com/pytorch/pytorch/issues/61866,"Feature request, invalid",
+[quant] Support QAT for Embedding/EmbeddingBag,closed,https://github.com/pytorch/pytorch/issues/61865,"Feature request, invalid",
+[quant] Create `from_blob_*`  APIs for quantized tensors,closed,https://github.com/pytorch/pytorch/issues/61777,"Feature request, invalid",
+fake_quantize_per_channel_affine backward error,closed,https://github.com/pytorch/pytorch/issues/61625,"RuntimeError, Shape error",LSTM
+Exporting a quantized model to onnx with opset > 9 fails: nchw2nhwc is not supported,closed,https://github.com/pytorch/pytorch/issues/61512,"RuntimeError, Unsupported",nchw2nhwc to ONNX
+"torch.quantization.fx.fuser forget to pass ""additional_fuser_method_mapping"" to fuse method",open,https://github.com/pytorch/pytorch/issues/61246,"Information missing, Wrong result",forget to pass in parameters
+[JIT] Request Constant Propagation to keep Constant int8 weight and dequant on the graph,closed,https://github.com/pytorch/pytorch/issues/61092,"Feature request, invalid",
+"Spewy warning ""UserWarning: Please use quant_min and quant_max to specify the range for observers.""",open,https://github.com/pytorch/pytorch/issues/61054,"Not a bug, invalid",
+Unify tensor quantization algorithm for x86 and arm,open,https://github.com/pytorch/pytorch/issues/61047,"Calculation error, Wrong result","overflow for ARM platform, fix for #60077"
+quantize_per_tensor returns inconsistent results on ARM for quint8,closed,https://github.com/pytorch/pytorch/issues/60077,"Calculation error, Wrong result",overflow for ARM platform
+Dynamic quantized LSTM does not support output projection now.,open,https://github.com/pytorch/pytorch/issues/60008,"Feature request, invalid",
+Bug in torch.quantization.convert (custom mapping) + fix suggestion,closed,https://github.com/pytorch/pytorch/issues/59630,"Information missing, Layer operation, Wrong result",Pass parameters
+AttributeError: 'int' object has no attribute 'numel' during quantization,closed,https://github.com/pytorch/pytorch/issues/59221,"AttributeError, RuntimeError, Unsupported",
+"Input and output shape of `torch.ops.quantized.batch_norm1d(_relu)?` do not match for 2d inputs ",closed,https://github.com/pytorch/pytorch/issues/59200,"RuntimeError, Shape error",batch_norm1d of relu ← 2d
+`test_lstm` in `quantization.bc.test_backward_compatibility.TestSerialization` fails on Intel Cascade Lake machines,open,https://github.com/pytorch/pytorch/issues/59098,"CI/CD, Testing, invalid",Intel Cascade Lake
+Improper use of quantization API for MHA should fail fast,open,https://github.com/pytorch/pytorch/issues/58969,"Feature request, invalid",
+Use after free in quantization code,closed,https://github.com/pytorch/pytorch/issues/58868,"Information conflict, Layer operation, Wrong result",Use after free
+Simplification of pruned models,open,https://github.com/pytorch/pytorch/issues/58846,"Feature request, invalid",
+Mobile Android: Could not run 'aten::quantize_per_tensor' with arguments from the 'Vulkan' backend,open,https://github.com/pytorch/pytorch/issues/58172,"RuntimeError, Unsupported",QAT with Vulkan
+"Error while converting model for NNAPI ""Unsupported node kind ('quantized::batch_norm2d')""",open,https://github.com/pytorch/pytorch/issues/58171,"RuntimeError, Unsupported",batch_norm2d
+Fake quantization produces diverse outputs under CPU and CUDA backends.,closed,https://github.com/pytorch/pytorch/issues/58130,"Not a bug, Wrong result",CPU vs GPU
+quantize_per_tensor not symbolically traceable with FX if scale+zp are proxied,open,https://github.com/pytorch/pytorch/issues/58051,"RuntimeError, Type error, Unsupported",Proxied object
+Support broadcasting for quantized add,closed,https://github.com/pytorch/pytorch/issues/57590,"Feature request, invalid",
+[quantization] Validate qconfig_dict keys,closed,https://github.com/pytorch/pytorch/issues/57509,"RuntimeError, ValueError",names of dict keys mismatch
+Poor torch.cat performance in the quantized Unet,open,https://github.com/pytorch/pytorch/issues/57418,Low Performance,
+"remove the dependence on node names in fx graph mode quant ",open,https://github.com/pytorch/pytorch/issues/56938,"Refactor, invalid",
+How do I convert the quantified model to onnx or ncnn？,closed,https://github.com/pytorch/pytorch/issues/56898,"invalid, question",
+quantization for tuple input,closed,https://github.com/pytorch/pytorch/issues/56848,"Feature request, invalid",
+can't find user's fuser method in quantization.fx.fusion_patterns.py when run fx graph qat.,open,https://github.com/pytorch/pytorch/issues/56778,"AssertionError, Type error",Cannot find method
+The result of `quantized.Conv2d` is different from the manual calculation,closed,https://github.com/pytorch/pytorch/issues/56331,"Calculation error, Wrong result",Round value
+torch.nn.quantized.functional.conv_transpose1d/2d/3d support,open,https://github.com/pytorch/pytorch/issues/56262,"Feature request, invalid",
+[quantization] deepcopy breaks fused modules,closed,https://github.com/pytorch/pytorch/issues/56108,"AttributeError, RuntimeError",Add constructor
+Can the model quantified by qnnpack be inferred on the x86 platform?,closed,https://github.com/pytorch/pytorch/issues/56028,"invalid, question",
+Support float_qparams in quantized_clone,open,https://github.com/pytorch/pytorch/issues/55912,"Feature request, invalid",
+Pytorch quantize method QAT support int8 or uint8 inference,closed,https://github.com/pytorch/pytorch/issues/55769,"invalid, question",
+Support quantized functional linear/conv operators with 32b output,open,https://github.com/pytorch/pytorch/issues/55464,"Feature request, invalid",
+Undefined behavior in prepack() for quantized EmbeddingBag,closed,https://github.com/pytorch/pytorch/issues/55396,invalid,Cannot repro
+fx graph mode quant - dynamic quant doesn't work with Linear-ReLU,closed,https://github.com/pytorch/pytorch/issues/55393,"Information missing, Layer operation, Wrong result",Linear-ReLU
+quantize_per_tensor and quantize_per_channel should work on fp16 tensors,closed,https://github.com/pytorch/pytorch/issues/55387,"RuntimeError, Unsupported","fp32 ok, fp16 not"
+test_quantize_fx.py test_resnet_18_dpp test failure,open,https://github.com/pytorch/pytorch/issues/54979,"Testing, invalid",
+" quantization aware training Pytorch and TensorRT",closed,https://github.com/pytorch/pytorch/issues/54748,"invalid, question",
+Calling test/quantization/test_quantized_op.py directly doesn't do anything,closed,https://github.com/pytorch/pytorch/issues/54154,"CI/CD, Testing, invalid",
+Use dispatcher to split up quantized operations,open,https://github.com/pytorch/pytorch/issues/54150,"Feature request, invalid",
+"[quantization] test_learnable_backward_per_{channel, tensor}_cpu failing after a seemingly irrelevant changes",open,https://github.com/pytorch/pytorch/issues/53966,"Feature request, invalid",
+FX dynamic quantization warnings,closed,https://github.com/pytorch/pytorch/issues/53566,"Not a bug, invalid",
+"Add helper function to easily access quantized scripted model weights for linear modules ",closed,https://github.com/pytorch/pytorch/issues/53542,"Feature request, invalid",
+Ensure that nn.MHA and functional multi-head attention is supported by FX graph mode quantization,open,https://github.com/pytorch/pytorch/issues/53026,"Feature request, invalid",
+could torch with quantize aware of training support onnx-export,closed,https://github.com/pytorch/pytorch/issues/52838,"RuntimeError, Unsupported",ONNX
+torch.quantization.fuse_modules behavior different than origin model.,closed,https://github.com/pytorch/pytorch/issues/52584,"Users' API misuse, invalid",
+RuntimeError: Can't redefine method: forward on class: __torch__.torch.nn.quantized.modules.conv.Conv1d (of Python compilation unit at: 0x5571a223a770),open,https://github.com/pytorch/pytorch/issues/52363,"RuntimeError, Users' API misuse, invalid",
+Why zero_point in _fake_quantize_learnable_per_tensor is different from _fake_quantize_learnable_per_channel_affine?,closed,https://github.com/pytorch/pytorch/issues/52038,"invalid, question",
+Make it clearer when a tensor was quantized symmetrically,open,https://github.com/pytorch/pytorch/issues/51152,"API Improvement, Feature request, invalid",
+Manually changed quantized weights not reflecting in state_dict(),closed,https://github.com/pytorch/pytorch/issues/50988,"Users' API misuse, invalid",
+how can i get the raw uint8 value from quantized tensor?,closed,https://github.com/pytorch/pytorch/issues/50724,"invalid, question",
+Output of quantized.functional.conv2d is wrong,closed,https://github.com/pytorch/pytorch/issues/50720,"Calculation error, Wrong result",conv2d
+`ATen/cpu/vec256/` should be a header only library for all but quantized types,closed,https://github.com/pytorch/pytorch/issues/50567,"CI/CD, invalid",
+"`Expected self.scalar_type() == ScalarType::Float to be true, but got false.` when doing quantization aware training?",closed,https://github.com/pytorch/pytorch/issues/50417,"Users' API misuse, invalid",
+Torch quantized_lstm_cell op out-of-bounds access,open,https://github.com/pytorch/pytorch/issues/50037,"API Improvement, Feature request, invalid",
+Fix type annotations on torch/quantization/fx/quantize.py,closed,https://github.com/pytorch/pytorch/issues/49836,"API Improvement, Feature request, invalid",
+model prune,closed,https://github.com/pytorch/pytorch/issues/49816,"invalid, question",
+implementation of fakequantOp is different between CUDA and CPU.,closed,https://github.com/pytorch/pytorch/issues/49779,"Calculation error, Wrong result",CPU vs CUDA
+"[Documentation missing item] Clarification on whether INT8 quantization could be beneficial for GPUs like Tesla T4 ",closed,https://github.com/pytorch/pytorch/issues/49741,"Feature request, invalid",
+Enable torch.nn.quantized.modules.conv typechecks during CI,closed,https://github.com/pytorch/pytorch/issues/49700,"CI/CD, invalid",
+global_pruning costs memory after model is trained,open,https://github.com/pytorch/pytorch/issues/49332,Resource comsuming,
+Implement additional quantile modes,closed,https://github.com/pytorch/pytorch/issues/48523,"Feature request, invalid",
+Dynamic quantization doesn't work after a forward pass,closed,https://github.com/pytorch/pytorch/issues/48448,"RuntimeError, Unsupported",deepcopy → inplace
+quantization - document get_default_qconfig,open,https://github.com/pytorch/pytorch/issues/48106,"documentation, invalid",
+"Do you support quantification of a part of the model, such as quantifying only the backbone",closed,https://github.com/pytorch/pytorch/issues/47839,"invalid, question",
+Error in test_quantize - missing FBGEMM implementation,closed,https://github.com/pytorch/pytorch/issues/47748,"Testing, invalid",
+"Enable torch.nn.intrinsic.quantized.modules.conv_relu typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/47679,"CI/CD, invalid",
+[quant] Add documentation for python functions,closed,https://github.com/pytorch/pytorch/issues/47652,"documentation, invalid",
+The output shape of torch.nn.quantized.functional.max_pool2d() is wrong in some cases,closed,https://github.com/pytorch/pytorch/issues/47556,"Not a bug, invalid",
+whether the torch.quantization.prepare_qat can support ConvTranspose2d or not,closed,https://github.com/pytorch/pytorch/issues/47427,"invalid, question",
+FX quantization: we should preserve original model class name through the quantization passes,open,https://github.com/pytorch/pytorch/issues/47363,"Feature request, invalid",
+Quantized modules should properly implement __getstate__ and __setstate__ (copy.deepcopy doesn't work on quantized model),open,https://github.com/pytorch/pytorch/issues/47311,"AttributeError, RuntimeError",deepcopy for quantized model
+XNNPACK/src/qu8-requantization/precise-psimd.c:139:1: error: unrecognizable insn:,closed,https://github.com/pytorch/pytorch/issues/47292,RuntimeError,"Compiler optimization, use -O1"
+"nn.quantized.Floatfunction  , Why Not Support Division",open,https://github.com/pytorch/pytorch/issues/47249,"Feature request, invalid",
+RuntimeError: Exporting the operator quantize_per_tensor to ONNX opset version 10 is not supported.,open,https://github.com/pytorch/pytorch/issues/47217,"RuntimeError, Unsupported",ONNX
+"INTERNAL ASSERT FAILED at ""/pytorch/torch/csrc/jit/passes/onnx/unpack_quantized_weights.cpp"":92",open,https://github.com/pytorch/pytorch/issues/47204,"Users' API misuse, invalid",
+why the scales in quantization are floats not in the format of m/2^n,closed,https://github.com/pytorch/pytorch/issues/46756,"invalid, question",
+Quantization - we need a better solution for tracking quantization backend settings in a model,open,https://github.com/pytorch/pytorch/issues/46749,"Feature request, invalid",
+torch.concat doesn't raise an error in a quantized model,open,https://github.com/pytorch/pytorch/issues/46604,"Feature request, Wrong result, invalid",
+fx quantization: nn.sequential not fuseable,closed,https://github.com/pytorch/pytorch/issues/46562,"IndexError, RuntimeError, Shape error",deepcopy
+module type is not preserved when symbolic tracing torch.nn.quantized.FloatFunctional,closed,https://github.com/pytorch/pytorch/issues/46430,"Information missing, Wrong result",leaf module
+How to save a quantized model?,closed,https://github.com/pytorch/pytorch/issues/4633,"invalid, question",
+"Training a pruned model makes it 10 times slower at inference ",closed,https://github.com/pytorch/pytorch/issues/46180,"Non-positive performance, Wrong result",
+[qnnpack] quantized sigmoid support general output_scale and output_zero_point,closed,https://github.com/pytorch/pytorch/issues/46005,"Feature request, invalid",
+[quantization]: Using histogram observer in a model's qconfig for QAT with nn.DataParallel leads to possible deadlock,closed,https://github.com/pytorch/pytorch/issues/45970,"Not a bug, invalid",
+Extend quantized::clamp to support optional min/max,closed,https://github.com/pytorch/pytorch/issues/45928,"Feature request, invalid",
+"Do we have plan to offer C++ binding for prune related features. ",open,https://github.com/pytorch/pytorch/issues/45855,"Feature request, invalid",
+DISABLED test_functional_debug (quantization.test_quantize_fx.TestQuantizeFx),closed,https://github.com/pytorch/pytorch/issues/45810,"Duplicated, invalid",#45809
+DISABLED test_functional_debug (quantization.test_quantize_fx.TestQuantizeFx),closed,https://github.com/pytorch/pytorch/issues/45809,"CI/CD, Testing, invalid",
+DISABLED test_functional_no_debug (quantization.test_quantize_fx.TestQuantizeFx),closed,https://github.com/pytorch/pytorch/issues/45761,"CI/CD, Testing, invalid",
+fx graph mode quantization tutorials,open,https://github.com/pytorch/pytorch/issues/45635,"documentation, invalid",
+[quantization]: Add support for quantization aware training for Leaky Relu and Sigmoid,closed,https://github.com/pytorch/pytorch/issues/45593,"Information conflict, Unsupported, Wrong result",Scale and 0-pt for Leaky RELU / Sigmoid
+(prototype) Graph Mode Dynamic Quantization on BERT failure on quantize_dynamic_jit(...) call,open,https://github.com/pytorch/pytorch/issues/45111,"RuntimeError, Type error",No attribute
+Median / quantile / mode pooling,open,https://github.com/pytorch/pytorch/issues/45009,"Feature request, invalid",
+Inconsistent result from FBGEMM and QNNPACK quantization backends,closed,https://github.com/pytorch/pytorch/issues/44939,"Calculation error, Dynamic RNN, Wrong result, documentation",FBGEMM & QNNPACK
+about sparse cnn quantize aware training,closed,https://github.com/pytorch/pytorch/issues/44880,"invalid, question",
+Support for quantized maxpool 1d,closed,https://github.com/pytorch/pytorch/issues/44852,"Feature request, invalid",
+Enable torch.backends.quantized typechecks during CI,closed,https://github.com/pytorch/pytorch/issues/44793,"CI/CD, invalid",
+"Pytorch 1.6 / torch_nightly doesn't support static-quantization for `F.conv2d` (aten::thnn_conv2d_forward) ",open,https://github.com/pytorch/pytorch/issues/44782,"RuntimeError, Unsupported",conv2d_forward
+Make enable/disable fake_quant and observer global functions,closed,https://github.com/pytorch/pytorch/issues/44751,"API Improvement, invalid",
+Make quantized::prepack_fp16 op just do prepacking,open,https://github.com/pytorch/pytorch/issues/44676,"API Improvement, invalid",
+fx quantization: skipping layers seems to not work,closed,https://github.com/pytorch/pytorch/issues/44438,"Layer operation, No effect, Wrong result",
+eager mode quantization: document custom qconfigs,closed,https://github.com/pytorch/pytorch/issues/44432,"documentation, invalid",
+investigate reported issues with quantized BatchNorm2d,open,https://github.com/pytorch/pytorch/issues/43774,"I/O, Information missing, Wrong result",
+How to see the weight  value of the quantified model?,closed,https://github.com/pytorch/pytorch/issues/43625,"invalid, question",
+module prune has no effect on speed and memory consumption,closed,https://github.com/pytorch/pytorch/issues/43552,"invalid, question",
+"torch.quantization.quantize_dynamic document refers `module` as a parameter ",open,https://github.com/pytorch/pytorch/issues/43503,"documentation, invalid",
+test_lstm of quantization.test_backward_compatibility.TestSerialization fails,closed,https://github.com/pytorch/pytorch/issues/43209,"Testing, invalid",
+Enable torch.nn.quantized.dynamic.modules.rnn typechecks during CI,closed,https://github.com/pytorch/pytorch/issues/43185,"CI/CD, invalid",
+[quant] Need to rewrite the serialization versioning for the ConvPackedParams,closed,https://github.com/pytorch/pytorch/issues/43168,"Not a bug, invalid",
+Enable torch.nn.quantized typechecks during CI,closed,https://github.com/pytorch/pytorch/issues/43029,"CI/CD, invalid",
+Display quant_min/quant_max on FakeQuantize module,closed,https://github.com/pytorch/pytorch/issues/43023,"API Improvement, invalid",
+[tutorials] Add details for quantized model save/load,closed,https://github.com/pytorch/pytorch/issues/43016,"documentation, invalid",
+"Enable torch.quantization._numeric_suite typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42977,"CI/CD, invalid",
+"Enable torch.quantization.quantize_jit typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42975,"CI/CD, invalid",
+"Enable torch.quantization.fake_quantize typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42974,"CI/CD, invalid",
+"Enable torch.quantization.stubs typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42973,"CI/CD, invalid",
+"Enable torch.quantization.observer typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42972,"CI/CD, invalid",
+"Enable torch.quantization.fuse_modules typechecks during CI ",open,https://github.com/pytorch/pytorch/issues/42971,"CI/CD, invalid",
+"Enable torch.quantization.default_mappings typechecks during CI ",closed,https://github.com/pytorch/pytorch/issues/42970,"CI/CD, invalid",
+undefined reference to `dnnlowp' related libraries when use caffe2 quantization server with C++ API,closed,https://github.com/pytorch/pytorch/issues/42801,"RuntimeError, Unsupported",caffe2
+[quant] Quantized AdaptivePool3d is much slower for ChannelsLast3d.,open,https://github.com/pytorch/pytorch/issues/42779,Low Performance,AdaptivePool3d < ChannelsLast3d
+Unable to print the min-max of quantized weights using Per-channel affine qscheme,open,https://github.com/pytorch/pytorch/issues/42598,"AssertionError, RuntimeError",Error when getting min & max of layer weight
+support LSTM for quantization aware training,open,https://github.com/pytorch/pytorch/issues/42594,"AttributeError, RuntimeError, Unsupported",LSTM
+state_dict for quantized models,closed,https://github.com/pytorch/pytorch/issues/42497,"Information missing, Wrong result",
+fake_quantize_per_tensor_affine failed on float16 input,closed,https://github.com/pytorch/pytorch/issues/42351,"Feature request, RuntimeError, Type error",float16
+Audit quantization functions to ensure proper argument sizes,open,https://github.com/pytorch/pytorch/issues/42336,"API Improvement, invalid",
+Not able to run quantized model on android,open,https://github.com/pytorch/pytorch/issues/42308,invalid,no detailed info
+Pytorch 1.6.0 Quantization  quantized tensor support on CUDA is not working,closed,https://github.com/pytorch/pytorch/issues/42288,"RuntimeError, Unsupported",GPU quantization
+[feature request] support for division in quantization,closed,https://github.com/pytorch/pytorch/issues/42130,"Feature request, invalid",
+[jit] [transformer] [8-bit quantize] Error when trying to quantize pytorch build-in transformer model and then export it with libtorch,closed,https://github.com/pytorch/pytorch/issues/42022,"RuntimeError, Type error",Linear class → LinearWithBias
+Poor performance of dynamic quantazation,closed,https://github.com/pytorch/pytorch/issues/41865,Low Performance,
+Replace blacklist/whitelist in torch/quantization/quantize.py,closed,https://github.com/pytorch/pytorch/issues/41764,"API Improvement, invalid",
+Replace blacklist/whitelist in torch/quantization/default_mappings.py,closed,https://github.com/pytorch/pytorch/issues/41763,"API Improvement, invalid",
+Replace blacklist/whitelist in torch/quantization/_numeric_suite.py,closed,https://github.com/pytorch/pytorch/issues/41762,"API Improvement, invalid",
+Replace blacklist/whitelist in torch/csrc/jit/passes/quantization/helper.cpp,closed,https://github.com/pytorch/pytorch/issues/41759,"API Improvement, invalid",
+Replace blacklist/whitelist in torch/quantization/default_mappings.py,closed,https://github.com/pytorch/pytorch/issues/41756,"API Improvement, invalid",
+Replace blacklist/whitelist in test/quantization/test_quantized_op.py,closed,https://github.com/pytorch/pytorch/issues/41751,"API Improvement, invalid",
+Inconsistency loading quantized models when state_dict with Version==None,open,https://github.com/pytorch/pytorch/issues/41684,"I/O, KeyError, RuntimeError",Format version mismatch
+support BatchNorm1d quantization fusion throughout quantization passes,open,https://github.com/pytorch/pytorch/issues/41642,"RuntimeError, Unsupported",BatchNorm1d
+whitelist keyword to quantization.prepare is implemented incorrectly,closed,https://github.com/pytorch/pytorch/issues/41633,"Default value, Layer operation, Wrong result",Should set to None rather than empty set
+Error while trying to trace quantized model,closed,https://github.com/pytorch/pytorch/issues/41594,"RuntimeError, invalid",No detailed info
+quantization.fuse_modules fails with Conv1d and BatchNorm1d,closed,https://github.com/pytorch/pytorch/issues/41534,"RuntimeError, Unsupported",conv1d & batchnorm1d
+Memory corruption and crash in quantized convolution with small inputs,closed,https://github.com/pytorch/pytorch/issues/41406,"RuntimeError, ValueError",image size < pad size
+Is it planning to support nn.Embeddings quantization?,closed,https://github.com/pytorch/pytorch/issues/41396,"Feature request, invalid",
+Problem about type conversion between quantized module and float module,closed,https://github.com/pytorch/pytorch/issues/41166,"invalid, question",
+eager mode quantization should remove qconfig in the (non-leaf module of) quantized model,open,https://github.com/pytorch/pytorch/issues/41149,"Feature request, invalid",
+All cpu allocations after calling _make_per_tensor_quantized_tensor on a cuda tensor are in pinned memory,closed,https://github.com/pytorch/pytorch/issues/41115,Resource comsuming,CUDA memory
+Torch.jit.trace error on FPN quantized model,closed,https://github.com/pytorch/pytorch/issues/40994,"AssertionError, RuntimeError",FPN
+Move the pruning module to a higher level,closed,https://github.com/pytorch/pytorch/issues/40966,"Feature request, invalid",
+quantized ops don't support multithreading?,open,https://github.com/pytorch/pytorch/issues/40473,"invalid, question",
+"Rename all ""quantization"" kernels in the native_functions.yaml",open,https://github.com/pytorch/pytorch/issues/40315,"API Improvement, invalid",
+Make `aten::adaptive_avg_pool3d` work for quantized Tensor inputs,closed,https://github.com/pytorch/pytorch/issues/40244,"Feature request, invalid",
+Reduce the number of variations of `quantized::add`,closed,https://github.com/pytorch/pytorch/issues/39817,"Refactor, invalid",
+"Support mainstream pruning techniques ",open,https://github.com/pytorch/pytorch/issues/39765,"Feature request, invalid",
+[Quantization] Output tensor type is lost after serializing and loading back a quantized model,open,https://github.com/pytorch/pytorch/issues/39690,"Information missing, Wrong result",
+Export fake quantization function to ONNX,closed,https://github.com/pytorch/pytorch/issues/39502,"Feature request, invalid",
+Format issue in `torch.quantization.add_quant_dequant`  documentation parameter section,open,https://github.com/pytorch/pytorch/issues/39426,"documentation, invalid",
+Draw quantized tensors in tensorboard,open,https://github.com/pytorch/pytorch/issues/39370,"invalid, question",
+Failure when loading quantized pre-trained weights partially,open,https://github.com/pytorch/pytorch/issues/39058,"I/O, Information missing, Wrong result",
+[Feature request] Structured pruning support zeroing respective output channel biases,closed,https://github.com/pytorch/pytorch/issues/38598,"Feature request, invalid",
+[quantization] Version support for quantization BC tests,open,https://github.com/pytorch/pytorch/issues/38569,"Testing, invalid",
+[Feature Request] Can torch.quantization support ReLU6 ?,closed,https://github.com/pytorch/pytorch/issues/38516,"invalid, question",
+quantization.test_quantize.TestGraphModePostTrainingStatic fails in tsan,closed,https://github.com/pytorch/pytorch/issues/38056,"Testing, invalid",
+"[quant] quant aware training mode.  result is different between ""before convert""and ""after convert to int8 model"" when run the same image",closed,https://github.com/pytorch/pytorch/issues/37747,invalid,no detailed info
+DISABLED test_default_quantized_lstm (quantization.test_quantize.TestPostTrainingDynamic),closed,https://github.com/pytorch/pytorch/issues/37495,"CI/CD, invalid",
+qnnpack's quantized-add gives wrong result,open,https://github.com/pytorch/pytorch/issues/37343,"Calculation error, Wrong result",requantization
+copy.deepcopy() breaks when pruning is set on sequential,closed,https://github.com/pytorch/pytorch/issues/37322,"RuntimeError, Unsupported",deepcopy
+Preserve forward() hooks while preparing for quantization,closed,https://github.com/pytorch/pytorch/issues/37151,"Feature request, invalid",
+Incremental pruning reorders module hooks,closed,https://github.com/pytorch/pytorch/issues/37138,"Information conflict, Wrong result",
+how to convert quantization_ware_training model to onnx,closed,https://github.com/pytorch/pytorch/issues/36991,"invalid, question",
+refactor test/quantization/test_backward_compatibility.py with bundled_inputs,open,https://github.com/pytorch/pytorch/issues/36958,"API Improvement, invalid",
+Potential division by zero in quantization observer,closed,https://github.com/pytorch/pytorch/issues/36888,RuntimeError,div by 0
+Error with CUDA for quantization aware training,closed,https://github.com/pytorch/pytorch/issues/36802,"RuntimeError, Unsupported",CUDA
+Need to fix nn.quantized.Linear API,open,https://github.com/pytorch/pytorch/issues/36703,"Precondition check, Wrong result",
+CUDA quantization is not currently supported in pytorch1.4?,closed,https://github.com/pytorch/pytorch/issues/36645,"CUDA, Unsupported",
+quantized::batch_norm2d should exist,closed,https://github.com/pytorch/pytorch/issues/36532,"RuntimeError, Unsupported",
+quantized::conv2d and variants don't have explicit schema,closed,https://github.com/pytorch/pytorch/issues/36511,"RuntimeError, Unsupported",
+Meaning of _quantized namespace isn't documented,closed,https://github.com/pytorch/pytorch/issues/36510,"documentation, invalid",
+[quantization] how to quantize model which include not support to quantize layer,closed,https://github.com/pytorch/pytorch/issues/36384,"invalid, question",
+why the quantized weights are showed in wrong values?,closed,https://github.com/pytorch/pytorch/issues/36304,"invalid, question",
+"[quantization] Error in QNNPACK: failed to create convolution with 0.6145506 input scale, 1.624538 kernel scale, and 0.2153073 output scale: convolution scale 4.636909 is greater or equal to 1.0",closed,https://github.com/pytorch/pytorch/issues/36253,"Calculation error, Invalid value, RuntimeError","some value ≥ 1, same as #33466"
+minor formatting issue in the quantization doc,closed,https://github.com/pytorch/pytorch/issues/36104,"documentation, invalid",
+[quantization] torch.quantized_lstm and torch.quantized_gru not documented,open,https://github.com/pytorch/pytorch/issues/36091,"documentation, invalid",
+Ensure quantization workflows work with batch-size 0 tensors,closed,https://github.com/pytorch/pytorch/issues/36001,"Feature request, Precondition check",
+Feature Request: Add quantile function support,closed,https://github.com/pytorch/pytorch/issues/35977,"Feature request, invalid",
+"when I print a quantized tensor, why it is in float32 fomat?",closed,https://github.com/pytorch/pytorch/issues/35874,"invalid, question",
+"After quantization, torchvision's resnet18 report error when forward",closed,https://github.com/pytorch/pytorch/issues/35595,"Users' API misuse, invalid",
+ONNX export failed on ATen operator quantized_lstm,open,https://github.com/pytorch/pytorch/issues/35536,"RuntimeError, Unsupported",ONNX & lstm
+"After quantization the model, mobile pytorch raise exception",closed,https://github.com/pytorch/pytorch/issues/35465,invalid,cannot repro
+`aten::quantize_per_tensor` is not constant folded,closed,https://github.com/pytorch/pytorch/issues/35068,"Layer operation, No effect, Wrong result",not folded
+why the bias is float in quantization model,closed,https://github.com/pytorch/pytorch/issues/34872,"invalid, question",
+Could not run 'quantized::conv2d' with arguments from the 'CPUTensorId' backend. 'quantized::conv2d' is only available for these backends: [QuantizedCPUTensorId].,closed,https://github.com/pytorch/pytorch/issues/34583,"Users' API misuse, invalid",
+Didn't find engine for operation quantized::conv_prepack NoQEngine (operator () at ..\aten\src\ATen\native\quantized\cpu\qconv_prepack.cpp:264) (no backtrace available),closed,https://github.com/pytorch/pytorch/issues/34550,"Duplicated, invalid",#31684
+"How to quantize CNN in pytorch 1.3? ",closed,https://github.com/pytorch/pytorch/issues/34437,"invalid, question",
+All quantized ops should take scalar_type as an argument,open,https://github.com/pytorch/pytorch/issues/34351,invalid,
+CustomFromMask pruning stores a copy of the user-provided mask,open,https://github.com/pytorch/pytorch/issues/34257,"Not a bug, invalid",
+Implement range reduction for activations on dynamic quantization kernels and enable per-tensor and per-channel dynamic quant with range reduction,closed,https://github.com/pytorch/pytorch/issues/34113,"RuntimeError, Unsupported",range reduction
+Add support for static and dynamic quantization with Conv1D operator,open,https://github.com/pytorch/pytorch/issues/34074,"Feature request, invalid",
+change dtype for scales/zero_points in per channel quantization to float Tensor and int Tensor,open,https://github.com/pytorch/pytorch/issues/33827,"API Improvement, invalid",
+Flaky test test_quantized_rnn on Windows,closed,https://github.com/pytorch/pytorch/issues/33756,"Testing, invalid",
+Add DDP support for observer and fake-quant modules,closed,https://github.com/pytorch/pytorch/issues/33648,"Feature request, invalid",
+Improve speed of per-channel fake quant operator,closed,https://github.com/pytorch/pytorch/issues/33647,"Feature request, invalid",
+[Quantization]Quant and Dequant is changing memory layout,open,https://github.com/pytorch/pytorch/issues/33643,Resource comsuming,CUDA memory
+torch.nn.utils.prune.remove prevents future model training,closed,https://github.com/pytorch/pytorch/issues/33618,"RuntimeError, Type error",train after prune
+QuantStub doesn't convert tensor to int8 in quantized model,closed,https://github.com/pytorch/pytorch/issues/33487,"RuntimeError, Type error, Unsupported",int8
+question about GPT 2 quantization,closed,https://github.com/pytorch/pytorch/issues/33433,"invalid, question",
+Need to support clone for per channel quantized tensor,closed,https://github.com/pytorch/pytorch/issues/33309,"Feature request, invalid",
+Acces to weights after quantization,closed,https://github.com/pytorch/pytorch/issues/33013,"invalid, question",
+"random_pruning, remove_pruning typo",closed,https://github.com/pytorch/pytorch/issues/32991,"documentation, invalid",
+Dynamic Linear quantization fails with engine 'qnnpack when trying to  create a quantized based model for use on an Android mobile device,closed,https://github.com/pytorch/pytorch/issues/32934,"RuntimeError, Unsupported",
+Effectiveness of pruning,closed,https://github.com/pytorch/pytorch/issues/32928,"Non-positive performance, Not a bug",
+AssertionError: torch.nn.quantized.ReLU does not support inplace,closed,https://github.com/pytorch/pytorch/issues/32859,"AssertionError, RuntimeError, invalid",no detailed info
+[quantization] Need fused relu FP16 dynamic quantized linear,closed,https://github.com/pytorch/pytorch/issues/32775,"Type error, Wrong result",fp16
+Fused 1D modules for quantization,open,https://github.com/pytorch/pytorch/issues/32768,"Feature request, invalid",
+DISABLED test_quantized_rnn (test_quanization.PostTrainingDynamicQuantTest),closed,https://github.com/pytorch/pytorch/issues/32743,"Testing, invalid",
+Dynamic LSTM quantization fails with engine 'qnnpack' when LSTM is part of another module,closed,https://github.com/pytorch/pytorch/issues/32676,"RuntimeError, Type error",No PackedLinearWeight
+DISABLED test_quantized_rnn (test_quanization.PostTrainingDynamicQuantTest),open,https://github.com/pytorch/pytorch/issues/32644,"Testing, invalid",
+Channel-wise quantization for activations for conv/linear operators,closed,https://github.com/pytorch/pytorch/issues/32542,"Feature request, invalid",
+AttributeError: module 'torch.nn.utils' has no attribute 'prune',closed,https://github.com/pytorch/pytorch/issues/32483,"AttributeError, RuntimeError, Users' API misuse, invalid",
+Need unittests for the quantization save_state/load_state,open,https://github.com/pytorch/pytorch/issues/32189,"Testing, invalid",
+Missing documentation for is_quantized,open,https://github.com/pytorch/pytorch/issues/32064,"documentation, invalid",
+Parallelization of the fbgemm::quantized/dequantize,closed,https://github.com/pytorch/pytorch/issues/32006,"Feature request, invalid",
+test_quantized is flaky,closed,https://github.com/pytorch/pytorch/issues/32000,"Testing, invalid",
+A pattern fuse or pattern replace tool for quantization.,closed,https://github.com/pytorch/pytorch/issues/31872,"Feature request, invalid",
+torch.nn.quantized.functional.conv2d failed on CPU,closed,https://github.com/pytorch/pytorch/issues/31868,"Users' API misuse, invalid",
+How to set quantization aware training scaling factors?,closed,https://github.com/pytorch/pytorch/issues/31823,"invalid, question",
+quantization - Missing operations needed for object detection,open,https://github.com/pytorch/pytorch/issues/31316,"RuntimeError, Unsupported",
+[quant] QuantizedCUDA,closed,https://github.com/pytorch/pytorch/issues/30813,"Feature request, invalid",
+Support the unary quantized operator,closed,https://github.com/pytorch/pytorch/issues/30675,"Feature request, RuntimeError, invalid",
+test_insert_quant_dequant_multi_uses is broken,closed,https://github.com/pytorch/pytorch/issues/30465,"Testing, invalid",
+Speed-up per channel fake quantization implementation,closed,https://github.com/pytorch/pytorch/issues/30349,"Feature request, invalid",
+Add support for fusion of relu6 with conv and bn for quantization,open,https://github.com/pytorch/pytorch/issues/30214,"Feature request, invalid",
+[quantization][graph mode] SubgraphRewriter discards SourceRanges,open,https://github.com/pytorch/pytorch/issues/30182,"No effect, Wrong result",
+quantization-aware training,closed,https://github.com/pytorch/pytorch/issues/30125,invalid,cannot repro
+"Static Quantization: Get Error ""RuntimeError: didn't find kernel to dispatch to for operator 'quantized:: conv2d'. Tried to look up kernel for dispatch key 'CPUTensorId'. Registered dispatch keys are [quantizedCPUTensorId](look up_at /pytorch/aten/src/ATen/core/dispatch/DispatchTable.h:249)""",closed,https://github.com/pytorch/pytorch/issues/29989,"RuntimeError, Users' API misuse",Input tensor is not quantized
+Add doc coverage testing for quantization.rst,open,https://github.com/pytorch/pytorch/issues/29763,"documentation, invalid",
+add discussion about QNNPACK to quantization doc page,closed,https://github.com/pytorch/pytorch/issues/29735,"documentation, invalid",
+Failed to convert quantized mobilenet to onnx,closed,https://github.com/pytorch/pytorch/issues/29724,"RuntimeError, Unsupported",ONNX Mobilenet
+test_insert_quant_dequant JIT test is flaky,closed,https://github.com/pytorch/pytorch/issues/29693,"Testing, invalid",
+Error in example of quantized.functional.conv2d,closed,https://github.com/pytorch/pytorch/issues/29649,"documentation, invalid",
+Warning when instantiating quantized model,open,https://github.com/pytorch/pytorch/issues/29538,"Not a bug, invalid",
+quantized permute throws an error when trying to print/show the tensor,closed,https://github.com/pytorch/pytorch/issues/29435,"Invalid Type, RuntimeError",Skip copy_name_type_transpose
+RuntimeError: Didn't find engine for operation quantized::conv_prepack NoQEngine,closed,https://github.com/pytorch/pytorch/issues/29327,"RuntimeError, Unsupported",
+Indexed assignment of quantized Tensors yields unexpected results,closed,https://github.com/pytorch/pytorch/issues/29102,"Calculation error, Wrong result",
+Speed slows down after model quantization,closed,https://github.com/pytorch/pytorch/issues/29024,Non-positive performance,
+Is the bias quantized when torch.quantization.convert()?,closed,https://github.com/pytorch/pytorch/issues/28952,"Feature request, invalid",
+A question about static_quantization_tutorial,closed,https://github.com/pytorch/pytorch/issues/28951,"invalid, question",
+RuntimeError: Didn't find engine for operation quantized::conv_prepack NoQEngine,closed,https://github.com/pytorch/pytorch/issues/28945,"RuntimeError, Unsupported",
+andoroid  quantization  model (mobilenetv2) first forward  very slow?  but second forward  faster why how to fix it,closed,https://github.com/pytorch/pytorch/issues/28778,"invalid, question",
+"How to use torch.quantization.get_observer_dict(mod, target_dict, prefix='')",closed,https://github.com/pytorch/pytorch/issues/28776,"invalid, question",
+why the data-type of output is quint8 in static quantize? what  static quantize does under the hood?,closed,https://github.com/pytorch/pytorch/issues/28771,"invalid, question",
+test_rand_quantization is flaky,closed,https://github.com/pytorch/pytorch/issues/28550,"Testing, invalid",
+[quantization] Dispatch key error message is confusing to users,closed,https://github.com/pytorch/pytorch/issues/28518,"API Improvement, documentation, invalid",
+Didn't find kernel to dispatch to for operator 'quantized::conv2d',closed,https://github.com/pytorch/pytorch/issues/28483,"Users' API misuse, invalid",
+"torch.quantization.convert() doesn't remove observer from empty Sequential() module, causing error when scripting",closed,https://github.com/pytorch/pytorch/issues/28375,"RuntimeError, Shape error",Has excess observer in model
+Error for quantize_dynamic(resnet18) + torch.jit.trace + ios-demo-app/PyTorchDemo,closed,https://github.com/pytorch/pytorch/issues/28346,"RuntimeError, Unsupported",
+How to save quantized model in PyTorch1.3 with quantization information,closed,https://github.com/pytorch/pytorch/issues/28331,"Information missing, Wrong result",
+[quantization] fix the seed for hypothesis in CI,open,https://github.com/pytorch/pytorch/issues/28323,"CI/CD, invalid",
+How to quantize resnet in pytorch 1.3?,closed,https://github.com/pytorch/pytorch/issues/28202,"RuntimeError, Unsupported",Dynamic Conv2d
+net after quantize_qat can not improve accuracy,closed,https://github.com/pytorch/pytorch/issues/28071,"Users' API misuse, invalid",
+run quantization on GPU,closed,https://github.com/pytorch/pytorch/issues/28069,"Feature request, invalid",
+[quantization] Packed sequence support for dynamic quantized RNN,closed,https://github.com/pytorch/pytorch/issues/27963,"Dynamic RNN, Unsupported",
+[quantization] Dynamic LSTM doesn't serialize properly when traced,closed,https://github.com/pytorch/pytorch/issues/27954,"RuntimeError, trace",
+Dynamic quantization with 8 bit weights leads to poor accuracy on BERT Models,closed,https://github.com/pytorch/pytorch/issues/27949,"Low accuracy, Not a bug, invalid",8bit QAT
+Some of the quantized functions lack documentation,closed,https://github.com/pytorch/pytorch/issues/27938,"documentation, invalid",
+torch.quantization.MovingAverageObserver linked to in docs but doesn't exist,closed,https://github.com/pytorch/pytorch/issues/27849,"documentation, invalid",
+Move torch.nn.quantized.conv2d to GPU,closed,https://github.com/pytorch/pytorch/issues/27811,"RuntimeError, Unsupported",CUDA
+[quantization] FP16 Support for Dynamic Linear,closed,https://github.com/pytorch/pytorch/issues/27794,"Feature request, invalid",
+[quantization] QNNPACK Engine for Dynamic Quantization,closed,https://github.com/pytorch/pytorch/issues/27793,"Feature request, invalid",
+How do you add quantized training?,closed,https://github.com/pytorch/pytorch/issues/27747,"Feature request, invalid",
+Try torch.nn.quantized.functional.conv2d failed,closed,https://github.com/pytorch/pytorch/issues/27739,"RuntimeError, Unsupported",conv2d
+quantizationed model cannot inference with cuda?,closed,https://github.com/pytorch/pytorch/issues/27729,"RuntimeError, Unsupported",CUDA
+odd formatting in quantization.rst,closed,https://github.com/pytorch/pytorch/issues/27618,"documentation, invalid",
+formatting issue in dynamic quantization function,closed,https://github.com/pytorch/pytorch/issues/27450,"documentation, invalid",
+"nn.quantized.modules.linear not showing the linear class. ",closed,https://github.com/pytorch/pytorch/issues/27433,"Feature request, invalid",
+"the reference to the quantization nn modules needs a little more description. ",closed,https://github.com/pytorch/pytorch/issues/27430,"documentation, invalid",
+torch quant docs all showing up in the index.html,closed,https://github.com/pytorch/pytorch/issues/27352,"Feature request, invalid",
+Need to add image for the quantization formula to the quantization doc,closed,https://github.com/pytorch/pytorch/issues/27317,"documentation, invalid",
+document: torch.quantize_per_tensor and torch.quantize_per_channel,closed,https://github.com/pytorch/pytorch/issues/27296,"documentation, invalid",
+nn.Dropout does not work with quantized tensors on scripted models,closed,https://github.com/pytorch/pytorch/issues/27205,"No effect, Wrong result",
+torch.quantized.modules.floatFunctional -- add a little color commentary to the doc,open,https://github.com/pytorch/pytorch/issues/26990,"API Improvement, invalid",
+strange rendering in add_quant_dequant,closed,https://github.com/pytorch/pytorch/issues/26469,"documentation, invalid",
+There's something wrong with the quantization hypothesis tests (ASAN induced),closed,https://github.com/pytorch/pytorch/issues/26279,"Testing, invalid",
+Error when using `quantized_linear_per_channel` inside `aten/src/Aten/native/quantized/cpu`,closed,https://github.com/pytorch/pytorch/issues/25962,"RuntimeError, invalid",cannot repro
+x.view() does not work after pooling on quantized tensors,closed,https://github.com/pytorch/pytorch/issues/25890,"RuntimeError, Shape error, Type error",
+pack weight and bias to the same struct for fbgemm quantized conv and linear ops,closed,https://github.com/pytorch/pytorch/issues/25401,"Information conflict, Wrong result",
+Serialization does not work for quantized modules,open,https://github.com/pytorch/pytorch/issues/25137,"I/O, Information missing, RuntimeError",
+[RFC] Add new python modules in `torch.nn.quantized` for mobile.,closed,https://github.com/pytorch/pytorch/issues/25120,"API Improvement, invalid",
+CI warnings for quantization tests,closed,https://github.com/pytorch/pytorch/issues/25096,"API Improvement, invalid",
+Better error message when a quantized operator is not supported,closed,https://github.com/pytorch/pytorch/issues/24395,"Feature request, invalid",
+Promote the quantization scheme to Affine in the quantize addition,closed,https://github.com/pytorch/pytorch/issues/24215,"Feature request, invalid",
+[quantization] Need kernels for broadcasting ops,closed,https://github.com/pytorch/pytorch/issues/24210,"Feature request, invalid",
+[quant] Layout transform,closed,https://github.com/pytorch/pytorch/issues/24066,invalid,
+[quant][graph mode] convert float function aten function calls to quantized function calls,closed,https://github.com/pytorch/pytorch/issues/24064,invalid,
+[quant] Handling ConvBn in graph mode,closed,https://github.com/pytorch/pytorch/issues/24063,invalid,
+[quant] use qconfig_dict in graph mode,closed,https://github.com/pytorch/pytorch/issues/24062,invalid,
+[quant] Graph mode quant - skip inserting observers for certain patterns,closed,https://github.com/pytorch/pytorch/issues/24061,invalid,
+Make quantization flow work with _intrinsic modules,closed,https://github.com/pytorch/pytorch/issues/24017,"Feature request, invalid",
+[quantization] copy_kernel_cast not implemented for QUInt8,closed,https://github.com/pytorch/pytorch/issues/23986,"API Improvement, invalid",
+[quantization] Tracking task for __getstate__ and __setstate__ support on quantized modules,closed,https://github.com/pytorch/pytorch/issues/23984,"Feature request, invalid",
+[quantization] quantized linear _load_from_state_dict and _save_to_state_dict are untested,closed,https://github.com/pytorch/pytorch/issues/23950,"CI/CD, Precondition check, invalid",
+Fused Conv2d/Batchnorm Op is not implemented for post training quantization flow,closed,https://github.com/pytorch/pytorch/issues/23932,"Feature request, invalid",
+Support the inplace Relu fusion in quantization flow,closed,https://github.com/pytorch/pytorch/issues/23924,"Feature request, invalid",
+Implement observers that provide higher accuracy for quantization,closed,https://github.com/pytorch/pytorch/issues/23919,"Feature request, invalid",
+nn.quantized.conv2d module does not register _scale and _zeropoint as buffers.,closed,https://github.com/pytorch/pytorch/issues/23881,"API Improvement, invalid",
+Add channelwise quantization support,closed,https://github.com/pytorch/pytorch/issues/23877,"Feature request, invalid",
+Improved error reporting for torch.quantization.convert(),open,https://github.com/pytorch/pytorch/issues/23875,"API Improvement, invalid",
+tag:quantization_release_1.3,closed,https://github.com/pytorch/pytorch/issues/23872,"API Improvement, invalid",
+[quantization] jit::class_ for packed weights,open,https://github.com/pytorch/pytorch/issues/23850,"API Improvement, invalid",
+Observer does not ensure that zero is in range of quantizable values.,closed,https://github.com/pytorch/pytorch/issues/23838,"RuntimeError, Unsupported",0 in range
+[quantization] Add testing for script-ing quantization modules,closed,https://github.com/pytorch/pytorch/issues/23827,"CI/CD, invalid",
+[quantization] Enable quantization OSS tests,closed,https://github.com/pytorch/pytorch/issues/23826,"CI/CD, invalid",
+Torch.Quantization: functions for determining supported modules/functionals/methods for quantized tensors,closed,https://github.com/pytorch/pytorch/issues/23750,"Feature request, invalid",
+torch/nn/quantized/modules/conv.py should not depend on Numpy,closed,https://github.com/pytorch/pytorch/issues/23080,"CI/CD, invalid",
+expected ) but found 'ident' here: quantized::fake_quantize_per_tensor_affine_forward,closed,https://github.com/pytorch/pytorch/issues/20804,"CI/CD, invalid",
+Build error with MSVC (aten\src\ATen\native\quantized\Copy.cpp),closed,https://github.com/pytorch/pytorch/issues/20642,"CI/CD, invalid",
+[Caffe2] Compile error: onnxTensorDescriptorV1 has no member named quantizationParams,closed,https://github.com/pytorch/pytorch/issues/19798,"RuntimeError, Type error",
+"How to perform quantization of a model in PyTorch?  ",closed,https://github.com/pytorch/pytorch/issues/17713,"invalid, question",
+Namedtuples prune the tensor representations too much,closed,https://github.com/pytorch/pytorch/issues/17112,"Not a bug, invalid",
+[]Compile bug in caffe2/quantization/server/activation_distribution_observer.cc when using g++4.9.2,closed,https://github.com/pytorch/pytorch/issues/14983,"RuntimeError, Unsupported",
+cannot run mobilenet_v2_quantized on pytorch/caffe2,open,https://github.com/pytorch/pytorch/issues/13373,"Users' API misuse, invalid",
