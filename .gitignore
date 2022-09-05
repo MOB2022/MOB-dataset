@@ -4,6 +4,3 @@
 # macOS
 .DS_Store
 ._*
-
-# Artifacts (to release in future)
-mob_study.ipynb

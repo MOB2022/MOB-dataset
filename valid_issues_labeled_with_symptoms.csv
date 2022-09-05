@@ -1,0 +1,395 @@
+repo,number,url,state,note,pr_url,intro_commit,intro_time,report_time,fix_commit,fix_time,find_duration,fix_duration,symptom
+pytorch/pytorch,69353,https://github.com/pytorch/pytorch/issues/69353,open,not resolved,,,,2021.12.3,,,,,Crash
+pytorch/pytorch,49332,https://github.com/pytorch/pytorch/issues/49332,open,not resolved,,,,2020.12.5,,,,,POP
+pytorch/pytorch,43552,https://github.com/pytorch/pytorch/issues/43552,closed,performance,,,,2020.8.25,,,,,POP
+pytorch/pytorch,37322,https://github.com/pytorch/pytorch/issues/37322,closed,user,,,,2020.4.27,,,,,Crash
+pytorch/pytorch,37138,https://github.com/pytorch/pytorch/issues/37138,closed,"user,workaround",,,,2020.4.23,,,,,MAD
+pytorch/pytorch,36214,https://github.com/pytorch/pytorch/issues/36214,closed,performance,https://github.com/pytorch/tutorials/pull/605,,,2020.4.8,,,,,POP
+pytorch/pytorch,34257,https://github.com/pytorch/pytorch/issues/34257,open,performance,,,,2020.3.5,,,,,Crash
+pytorch/pytorch,33618,https://github.com/pytorch/pytorch/issues/33618,closed,resolved,https://github.com/pytorch/pytorch/pull/34170,8e8a5e0664af2aaeb0c4aa0f243271bbbdf8455a,2019.11.9,2020.2.22,d37a4861b8a5eed3d9a1340484d1efb0f48aa59e,2020.4.30,105,68,Crash
+pytorch/pytorch,82708,https://github.com/pytorch/pytorch/issues/82708,closed,"user,api",,,,2022.8.3,,,,,Crash
+pytorch/pytorch,82443,https://github.com/pytorch/pytorch/issues/82443,open,not resolved,,,,2022.7.29,,,,,Crash
+pytorch/pytorch,80501,https://github.com/pytorch/pytorch/issues/80501,open,not resolved,,,,2022.6.29,,,,,OC
+pytorch/pytorch,80409,https://github.com/pytorch/pytorch/issues/80409,open,user,,,,2020.6.29,,,,,Crash
+pytorch/pytorch,80302,https://github.com/pytorch/pytorch/issues/80302,open,not resolved,,,,2022.6.27,,,,,Crash
+pytorch/pytorch,79862,https://github.com/pytorch/pytorch/issues/79862,open,not resolved,,,,2022.6.20,,,,,MAD
+pytorch/pytorch,77896,https://github.com/pytorch/pytorch/issues/77896,closed,resolved,https://github.com/pytorch/pytorch/pull/78148,92d3391fb1918539954e5d00bd6545535d4183bf,2021.7.22,2022.5.20,ba952d8308cd8d64430c3e36dbf7a0633695ed6a,2022.5.26,302,6,Crash
+pytorch/pytorch,77892,https://github.com/pytorch/pytorch/issues/77892,closed,resolved,https://github.com/pytorch/pytorch/pull/78148,92d3391fb1918539954e5d00bd6545535d4183bf,2021.7.22,2022.5.20,ba952d8308cd8d64430c3e36dbf7a0633695ed6a,2022.5.26,302,6,Crash
+pytorch/pytorch,77641,https://github.com/pytorch/pytorch/issues/77641,closed,resolved,https://github.com/pytorch/pytorch/pull/71956#discussion_r877644399,,,2022.5.17,,,,,OC
+pytorch/pytorch,76304,https://github.com/pytorch/pytorch/issues/76304,open,not resolved,,,,2022.4.25,,,,,Crash
+pytorch/pytorch,74540,https://github.com/pytorch/pytorch/issues/74540,open,not resolved,,,,2022.5.22,,,,,OC
+pytorch/pytorch,74538,https://github.com/pytorch/pytorch/issues/74538,closed,resolved,https://github.com/pytorch/pytorch/pull/75355,029007c8b650c84267ac1cdaae3bba8e5a9f957b,2020.7.30,2022.3.22,fb93acf466410ac6bc916ee201af4546ea2c5437,2022.4.7,600,15,Crash
+pytorch/pytorch,74393,https://github.com/pytorch/pytorch/issues/74393,open,not resolved,,,,2022.3.18,,,,,Crash
+pytorch/pytorch,73463,https://github.com/pytorch/pytorch/issues/73463,closed,resolved,https://github.com/pytorch/pytorch/pull/79095,f7a36344662d906e66f1e570e260ed2eaa63d702,2021.2.18,2022.2.26,06f21281ebbc405258481d80bb2898f78940e45d,2022.6.23,373,117,Crash
+pytorch/pytorch,69808,https://github.com/pytorch/pytorch/issues/69808,closed,refer to #43774,https://github.com/pytorch/pytorch/pull/70432,2e88d3d7039324444aed93af218a4fa00e83813c,2020.2.14,2020.8.29,4457ee6932205d4e371d2d7c5e5705295d1a1c80,2021.11.8,197,71,OC
+pytorch/pytorch,69307,https://github.com/pytorch/pytorch/issues/69307,closed,resolved,https://github.com/pytorch/pytorch/pull/70958,508845f2b55dcd3c7368f6e2baef2f0f635a162e,2021.9.23,2021.12.3,,,,,OC
+pytorch/pytorch,69235,https://github.com/pytorch/pytorch/issues/69235,closed,resolved,https://github.com/pytorch/vision/pull/4997,58016b09df234061209fb4a3fcb31b6ddce0dfd5,2021.11.26,2021.12.2,,,,,Crash
+pytorch/pytorch,68635,https://github.com/pytorch/pytorch/issues/68635,closed,not repro,,,,2021.11.19,,,,,Crash
+pytorch/pytorch,68581,https://github.com/pytorch/pytorch/issues/68581,closed,resolved,https://github.com/pytorch/pytorch/pull/68852,267e243064467f514bed6c8c2665ec5caf577094,2021.1.29,2021.11.18,03771e36abea9e3e0bcc54edcde8592f33403956,2021.11.24,293,6,Crash
+pytorch/pytorch,64564,https://github.com/pytorch/pytorch/issues/64564,closed,user,,,,2021.9.7,,,,,OC
+pytorch/pytorch,63234,https://github.com/pytorch/pytorch/issues/63234,closed,refer to #63356,,,,2021.8.14,,,,,Crash
+pytorch/pytorch,62804,https://github.com/pytorch/pytorch/issues/62804,closed,"user,performance",,,,2021.8.5,,,,,POP
+pytorch/pytorch,61881,https://github.com/pytorch/pytorch/issues/61881,closed,"user,wont fix",,,,2021.7.20,,,,,OC
+pytorch/pytorch,61246,https://github.com/pytorch/pytorch/issues/61246,open,not resolved,,,,2021.7.5,,,,,OC
+pytorch/pytorch,60210,https://github.com/pytorch/pytorch/issues/60210,open,not resolved,,,,2021.6.18,,,,,OC
+pytorch/pytorch,59200,https://github.com/pytorch/pytorch/issues/59200,closed,resolved,https://github.com/pytorch/pytorch/pull/59264,d8742eeed01a8bd5309c58e3b2000ad6fa35e11e,2021.2.4,2021.5.31,9de0c214bd16b95979e558487072cdbc09323259,2021.6.9,118,9,OC
+pytorch/pytorch,59098,https://github.com/pytorch/pytorch/issues/59098,open,not resolved,,,,2021.5.28,,,,,Crash
+pytorch/pytorch,59075,https://github.com/pytorch/pytorch/issues/59075,closed,resolved,https://github.com/pytorch/pytorch/pull/59234,ada916675fe40022d9ce575f145f25bfd60e70f2,2021.1.28,2021.5.27,1aa14fcb14dd1ecc8382f747de6f2070d929ed02,2021.6.4,119,8,Crash
+pytorch/pytorch,58969,https://github.com/pytorch/pytorch/issues/58969,open,resolved,https://github.com/pytorch/pytorch/pull/58727,a39b1c42c184916ab0798fde7b23967702d003e9,2021.2.23,2021.5.26,58d1b3639bc07f9519de18e5a18e575f260c7eeb,2021.5.27,93,1,OC
+pytorch/pytorch,58668,https://github.com/pytorch/pytorch/issues/58668,closed,resolved,https://github.com/pytorch/pytorch/pull/59761,15be189f0de4addf4f68d18022500f67617ab05d,2019.10.20,2021.5.21,087ac75b26db696169d1b48c20074c4a204633d8,2021.6.15,579,25,OC
+pytorch/pytorch,58055,https://github.com/pytorch/pytorch/issues/58055,closed,resolved,https://github.com/pytorch/pytorch/pull/63432,70f375becf97151edb5d44b773072b64d504c61f,2020.5.6,2021.5.12,0d619ddc5c23c21d3c9fd494ece05f1e7697a267,2021.8.18,371,98,Crash
+pytorch/pytorch,57590,https://github.com/pytorch/pytorch/issues/57590,closed,resolved,https://github.com/pytorch/pytorch/pull/66049,0c5c442cb12c43191f41acd67d48e4a70482d69b,2019.8.21,2021.5.5,,,,,Crash
+pytorch/pytorch,57509,https://github.com/pytorch/pytorch/issues/57509,closed,resolved,https://github.com/pytorch/pytorch/pull/58566,7db7da7151ff18850e462750d0eec0417b8750e4,2020.9.1,2021.5.4,e574c2c025d2ec9af2b7e1e9353ed19ed1b441fc,2021.5.22,245,18,OC
+pytorch/pytorch,57420,https://github.com/pytorch/pytorch/issues/57420,closed,wont fix,,,,2021.5.2,,,,,Crash
+pytorch/pytorch,57352,https://github.com/pytorch/pytorch/issues/57352,closed,resolved,https://github.com/pytorch/pytorch/pull/59660,f2e9622ed8814130d2f3d6d574dc68de34f1c1bb,2019.9.18,2021.4.30,d388cb9cca05d697c9f5360293f31ea9360fe016,2021.6.9,590,40,Crash
+pytorch/pytorch,55396,https://github.com/pytorch/pytorch/issues/55396,closed,not repro,,,,2021.4.7,,,,,MAD
+pytorch/pytorch,54979,https://github.com/pytorch/pytorch/issues/54979,open,not resolved,,,,2021.3.31,,,,,Crash
+pytorch/pytorch,54154,https://github.com/pytorch/pytorch/issues/54154,closed,not a bug,,,,2021.3.18,,,,,MAD
+pytorch/pytorch,54150,https://github.com/pytorch/pytorch/issues/54150,closed,resolved,https://github.com/pytorch/pytorch/pull/71639,,,2021.3.18,,,,,POP
+pytorch/pytorch,53807,https://github.com/pytorch/pytorch/issues/53807,closed,question,,,,2021.3.11,,,,,MAD
+pytorch/pytorch,53566,https://github.com/pytorch/pytorch/issues/53566,closed,improve,,,,2021.3.9,,,,,Crash
+pytorch/pytorch,53542,https://github.com/pytorch/pytorch/issues/53542,closed,"user,api",,,,2021.3.9,,,,,OC
+pytorch/pytorch,51718,https://github.com/pytorch/pytorch/issues/51718,closed,"platform,wont fix",,,,2021.2.4,,,,,MAD
+pytorch/pytorch,51216,https://github.com/pytorch/pytorch/issues/51216,closed,"user,api",,,,2021.1.28,,,,,Crash
+pytorch/pytorch,51152,https://github.com/pytorch/pytorch/issues/51152,open,not resolved,,,,2021.1.27,,,,,POP
+pytorch/pytorch,50720,https://github.com/pytorch/pytorch/issues/50720,closed,"user,api",,,,2021.1.19,,,,,MAD
+pytorch/pytorch,49331,https://github.com/pytorch/pytorch/issues/49331,closed,"user,api",,,,2020.12.15,,,,,Crash
+pytorch/pytorch,47839,https://github.com/pytorch/pytorch/issues/47839,closed,question,,,,2020.11.12,,,,,Crash
+pytorch/pytorch,47748,https://github.com/pytorch/pytorch/issues/47748,closed,resolved,https://github.com/pytorch/pytorch/pull/47800,72d1abb2a190b58ba3ee66829bab8977969951b6,2020.8.15,2020.11.11,72d1abb2a190b58ba3ee66829bab8977969951b6,2020.11.12,88,1,Crash
+pytorch/pytorch,47535,https://github.com/pytorch/pytorch/issues/47535,open,not resolved,,,,2020.11.7,,,,,MAD
+pytorch/pytorch,47427,https://github.com/pytorch/pytorch/issues/47427,closed,question,,,,2020.11.5,,,,,Crash
+pytorch/pytorch,47311,https://github.com/pytorch/pytorch/issues/47311,open,not resolved,,,,2020.11.4,,,,,MAD
+pytorch/pytorch,47298,https://github.com/pytorch/pytorch/issues/47298,closed,fixed,,,,2020.11.4,,,,,Crash
+pytorch/pytorch,46756,https://github.com/pytorch/pytorch/issues/46756,closed,question,,,,2020.10.23,,,,,OC
+pytorch/pytorch,46749,https://github.com/pytorch/pytorch/issues/46749,open,not resolved,,,,2020.10.23,,,,,POP
+pytorch/pytorch,46604,https://github.com/pytorch/pytorch/issues/46604,open,not resolved,,,,2020.10.21,,,,,OC
+pytorch/pytorch,46096,https://github.com/pytorch/pytorch/issues/46096,closed,inactive,,,,2020.10.10,,,,,Crash
+pytorch/pytorch,45809,https://github.com/pytorch/pytorch/issues/45809,closed,resolved,https://github.com/pytorch/pytorch/pull/45852,b0ec3364773a457201be82c1a13332f4a6197942,2020.8.21,2020.10.4,,,,,Crash
+pytorch/pytorch,45635,https://github.com/pytorch/pytorch/issues/45635,open,not resolved,,,,2020.10.1,,,,,Crash
+pytorch/pytorch,45593,https://github.com/pytorch/pytorch/issues/45593,closed,resolved,https://github.com/pytorch/pytorch/pull/45702,2da8c8df0879ec212f1c180b1a11627629742e2c,2020.7.23,2020.10.1,d1fc1555d493a396358840d2bc19d55a19636371,2020.10.7,70,6,Crash
+pytorch/pytorch,45185,https://github.com/pytorch/pytorch/issues/45185,closed,user,,,,2020.9.23,,,,,MAD
+pytorch/pytorch,44939,https://github.com/pytorch/pytorch/issues/44939,closed,resolved,https://github.com/pytorch/pytorch/pull/45305,e049e0b0278433ba3cae77142614d0f898c51517,2019.10.10,2020.9.18,f255e211bf860483165572f1593c79979021ef5d,2020.9.25,344,7,MAD
+pytorch/pytorch,44880,https://github.com/pytorch/pytorch/issues/44880,closed,not repro,,,,2020.9.18,,,,,Crash
+pytorch/pytorch,44852,https://github.com/pytorch/pytorch/issues/44852,closed,fixed,,,,2020.9.17,,,,,Crash
+pytorch/pytorch,44676,https://github.com/pytorch/pytorch/issues/44676,open,not resolved,,,,2020.9.15,,,,,MAD
+pytorch/pytorch,43774,https://github.com/pytorch/pytorch/issues/43774,closed,resolved,https://github.com/pytorch/pytorch/pull/70432,2e88d3d7039324444aed93af218a4fa00e83813c,2020.2.14,2020.8.29,4457ee6932205d4e371d2d7c5e5705295d1a1c80,2021.12.28,197,121,OC
+pytorch/pytorch,43625,https://github.com/pytorch/pytorch/issues/43625,closed,"user,api",,,,2020.8.27,,,,,Crash
+pytorch/pytorch,43394,https://github.com/pytorch/pytorch/issues/43394,closed,fixed,,,,2020.8.27,,,,,Crash
+pytorch/pytorch,43209,https://github.com/pytorch/pytorch/issues/43209,closed,resolved,https://github.com/easybuilders/easybuild-easyconfigs/pull/13237,,,2020.8.19,,,,,Crash
+pytorch/pytorch,43016,https://github.com/pytorch/pytorch/issues/43016,closed,resolved,https://github.com/pytorch/tutorials/pull/1167,3f20dd11e91707a19fa0cf6af130d709a30bc0f0,2019.12.7,2020.8.14,c23e0a4f491189de6bec73cfb4f7f9a02e291b6d,2020.9.26,251,43,Crash
+pytorch/pytorch,42779,https://github.com/pytorch/pytorch/issues/42779,open,resolved,https://github.com/pytorch/pytorch/pull/42780,eca01eb0a6f7f0f16c7e63a5b2c90ce91b7814a1,2019.9.22,2020.8.9,5da97a38d1e4597f49f0e0dd22009a6a2ff4e963,2020.8.28,322,19,POP
+pytorch/pytorch,42598,https://github.com/pytorch/pytorch/issues/42598,closed,resolved,https://github.com/pytorch/pytorch/pull/79036,3346759774001739d1520ace14a6f18bb78286c3,2019.9.26,2020.8.6,b12d951f86afcef558ba0fa25c6f8a4880d339e6,2022.6.9,315,672,Crash
+pytorch/pytorch,42594,https://github.com/pytorch/pytorch/issues/42594,open,not resolved,,,,2020.8.5,,,,,Crash
+pytorch/pytorch,42497,https://github.com/pytorch/pytorch/issues/42497,closed,supporting,,,,2020.8.4,,,,,Crash
+pytorch/pytorch,42336,https://github.com/pytorch/pytorch/issues/42336,open,not resolved,,,,2020.7.31,,,,,OC
+pytorch/pytorch,42312,https://github.com/pytorch/pytorch/issues/42312,closed,refer to #46749,,,,2020.7.31,,,,,OC
+pytorch/pytorch,42288,https://github.com/pytorch/pytorch/issues/42288,closed,user,,,,2020.7.30,,,,,Crash
+pytorch/pytorch,42113,https://github.com/pytorch/pytorch/issues/42113,open,not resolved,,,,2020.7.28,,,,,POP
+pytorch/pytorch,41865,https://github.com/pytorch/pytorch/issues/41865,closed,performance,https://github.com/pytorch/pytorch/commit/6d1e43c5a691d6d0ee9f13d1ccf223e755b885d3,,,2020.7.23,6d1e43c5a691d6d0ee9f13d1ccf223e755b885d3,,,,POP
+pytorch/pytorch,41684,https://github.com/pytorch/pytorch/issues/41684,closed,not repro,,,,2020.7.21,,,,,OC
+pytorch/pytorch,41652,https://github.com/pytorch/pytorch/issues/41652,closed,question,,,,2020.7.20,,,,,Crash
+pytorch/pytorch,41642,https://github.com/pytorch/pytorch/issues/41642,closed,resolved,https://github.com/pytorch/pytorch/pull/50748,761ae8e9b6226e4857fb3f80e0c2f29855c08860,2019.8.16,2020.7.19,e01158fce9211f240bfc3d62c8735a9b832d477d,2021.1.20,338,185,Crash
+pytorch/pytorch,41640,https://github.com/pytorch/pytorch/issues/41640,closed,inactive,,,,2020.7.19,,,,,Crash
+pytorch/pytorch,41633,https://github.com/pytorch/pytorch/issues/41633,closed,"fixed,doc",,,,2020.7.19,,,,,OC
+pytorch/pytorch,41594,https://github.com/pytorch/pytorch/issues/41594,closed,not repro,,,,2020.7.18,,,,,Crash
+pytorch/pytorch,41534,https://github.com/pytorch/pytorch/issues/41534,closed,"user,api",,,,2020.7.17,,,,,Crash
+pytorch/pytorch,41406,https://github.com/pytorch/pytorch/issues/41406,closed,resolved,https://github.com/pytorch/FBGEMM/pull/395,f767351c4b85cb29f6ea07d1a3bc27d62cca5150,2019.9.26,2020.7.15,dfbb13f937511eb426ccec6b8e263e5abb91865c,2020.7.22,293,7,Crash
+pytorch/pytorch,41396,https://github.com/pytorch/pytorch/issues/41396,closed,question,,,,2020.7.15,,,,,Crash
+pytorch/pytorch,41149,https://github.com/pytorch/pytorch/issues/41149,open,not resolved,,,,2020.7.9,,,,,OC
+pytorch/pytorch,40693,https://github.com/pytorch/pytorch/issues/40693,closed,"user,api",,,,2020.6.29,,,,,MAD
+pytorch/pytorch,40490,https://github.com/pytorch/pytorch/issues/40490,closed,not repro,,,,2020.6.24,,,,,POP
+pytorch/pytorch,40316,https://github.com/pytorch/pytorch/issues/40316,open,resolved,https://github.com/pytorch/pytorch/pull/40271,eca01eb0a6f7f0f16c7e63a5b2c90ce91b7814a1,2019.9.22,2020.6.20,c314e0deb56a549f217a6b407e8efdef4c599751,2020.6.24,272,4,Crash
+pytorch/pytorch,40278,https://github.com/pytorch/pytorch/issues/40278,open,not resolved,,,,2020.6.19,,,,,Crash
+pytorch/pytorch,39817,https://github.com/pytorch/pytorch/issues/39817,closed,resolved,https://github.com/pytorch/pytorch/pull/42769,f69b72c73895bf345e290f6a8e3b2658ac037e3f,2020.4.18,2020.6.11,b504bd0c3bf389fb372fabd4840e1cb8e6f79967,2020.8.8,54,58,Crash
+pytorch/pytorch,39495,https://github.com/pytorch/pytorch/issues/39495,open,not resolved,,,,2020.6.4,,,,,Crash
+pytorch/pytorch,38803,https://github.com/pytorch/pytorch/issues/38803,open,not resolved,,,,2020.5.21,,,,,Crash
+pytorch/pytorch,38081,https://github.com/pytorch/pytorch/issues/38081,closed,resolved,https://github.com/pytorch/pytorch/pull/38368,f7de9be3c0c7eef08b37e338c04b644a8cb57b75,2019.7.16,2020.5.8,8292742ba020fcff90f14418c18741ebf606103b,2020.5.19,297,11,OC
+pytorch/pytorch,37495,https://github.com/pytorch/pytorch/issues/37495,closed,fixed,,,,2020.4.29,,,,,Crash
+pytorch/pytorch,37383,https://github.com/pytorch/pytorch/issues/37383,closed,resolved,https://github.com/pytorch/pytorch/pull/50748,761ae8e9b6226e4857fb3f80e0c2f29855c08860,2019.8.16,2020.4.28,e01158fce9211f240bfc3d62c8735a9b832d477d,2021.1.21,,,Crash
+pytorch/pytorch,37343,https://github.com/pytorch/pytorch/issues/37343,open,not resolved,,,,2020.4.27,,,,,MAD
+pytorch/pytorch,37270,https://github.com/pytorch/pytorch/issues/37270,closed,resolved,https://github.com/pytorch/pytorch/pull/38587,c59540b7b118473ee21b9100ccdc880a3d069d23,2019.8.30,2020.4.25,497f4299272b2a69072542c138096f43cc664dce,2020.5.16,239,21,Crash
+pytorch/pytorch,36888,https://github.com/pytorch/pytorch/issues/36888,closed,resolved,https://github.com/pytorch/pytorch/pull/40310,4bcf4796aa68cde64922aa13fbfd2b3111c10526,2019.11.8,2020.4.19,8974f584e32ade2e42a0d101b37aba8ea66cb815,2020.6.20,,,Crash
+pytorch/pytorch,36802,https://github.com/pytorch/pytorch/issues/36802,closed,resolved,https://github.com/pytorch/pytorch/pull/39031,5040d52a5a272049b9f727b7ffed01dfaabe21e6,2019.7.10,2020.4.18,f0c4bf6047a7ab34bd1c194150fe18338bf098b7,2020.5.27,283,39,Crash
+pytorch/pytorch,36703,https://github.com/pytorch/pytorch/issues/36703,open,not resolved,,,,2020.4.16,,,,,Crash
+pytorch/pytorch,36645,https://github.com/pytorch/pytorch/issues/36645,closed,question,,,,2020.4.15,,,,,Crash
+pytorch/pytorch,36532,https://github.com/pytorch/pytorch/issues/36532,closed,resolved,https://github.com/pytorch/pytorch/pull/36494,2e88d3d7039324444aed93af218a4fa00e83813c,2020.2.14,2020.4.14,5ec5e61c4145f73886f304704a56f89293700e82,2020.4.15,60,1,OC
+pytorch/pytorch,36511,https://github.com/pytorch/pytorch/issues/36511,closed,resolved,https://github.com/pytorch/pytorch/pull/36389,e311e53abe9d657d9c4a1aae2fa00dbf49648528,2020.4.10,2020.4.14,388f0c04c167df6236db426cca90564ecf6a8e08,202.4.17,4,3,Crash
+pytorch/pytorch,36510,https://github.com/pytorch/pytorch/issues/36510,closed,resolved,https://github.com/pytorch/pytorch/pull/36799,37435d36eddca3778014503aeaeef1f0dccb8bb2,2019.12.7,2020.4.14,a9922211a3a9ac1932a576fdb51b2666f6c5e734,202.4.17,129,3,Crash
+pytorch/pytorch,36508,https://github.com/pytorch/pytorch/issues/36508,open,not resolved,,,,2020.4.14,,,,,Crash
+pytorch/pytorch,36326,https://github.com/pytorch/pytorch/issues/36326,closed,refer to #35999,,,,2020.4.10,,,,,Crash
+pytorch/pytorch,36304,https://github.com/pytorch/pytorch/issues/36304,closed,question,,,,2020.4.9,,,,,OC
+pytorch/pytorch,36127,https://github.com/pytorch/pytorch/issues/36127,open,resolved,https://github.com/pytorch/pytorch/pull/36128,3b3261ca8e13283021a9c8be28011b7be524834a,2019.8.27,2020.4.7,70acc9c0f521b1c30c0c2bd4c464805227622278,2020.4.7,224,0,Crash
+pytorch/pytorch,36104,https://github.com/pytorch/pytorch/issues/36104,closed,not repro,,,,2020.4.7,,,,,OC
+pytorch/pytorch,36001,https://github.com/pytorch/pytorch/issues/36001,closed,fixed,,,,2020.4.4,,,,,Crash
+pytorch/pytorch,35634,https://github.com/pytorch/pytorch/issues/35634,closed,resolved,https://github.com/pytorch/pytorch/pull/45307,6cf9ed4a548d75daae33b27c0b300c4fbc8c10bb,2019.8.2,2020.3.29,bc3151dee0b73e10c64788fce2d822e96aeffb4a,2020.9.25,240,180,MAD
+pytorch/pytorch,35515,https://github.com/pytorch/pytorch/issues/35515,closed,inactive,,,,2020.3.27,,,,,Crash
+pytorch/pytorch,35465,https://github.com/pytorch/pytorch/issues/35465,closed,not repro,,,,2020.3.26,,,,,Crash
+pytorch/pytorch,35182,https://github.com/pytorch/pytorch/issues/35182,closed,resolved,https://github.com/pytorch/pytorch/pull/37032,45e4b614d1c8b529967b7f039677853d73911076,2020.2.27,2020.3.22,eb84db1e966e333c8bef59e3a4e76e4578ae69bd,2020.4.22,24,30,Crash
+pytorch/pytorch,35068,https://github.com/pytorch/pytorch/issues/35068,closed,resolved,https://github.com/pytorch/pytorch/pull/35073,812b1ad8695c7bf28a8caa2f001f0ec3c554fbb7,2020.1.28,2020.3.20,6004ee99ce270b616b9568ae4913f529abdaa32c,2020.3.21,52,1,OC
+pytorch/pytorch,34872,https://github.com/pytorch/pytorch/issues/34872,closed,question,,,,2020.3.17,,,,,MAD
+pytorch/pytorch,34613,https://github.com/pytorch/pytorch/issues/34613,closed,"user,api",,,,2020.3.12,,,,,Crash
+pytorch/pytorch,34583,https://github.com/pytorch/pytorch/issues/34583,closed,"user,api",,,,2020.3.11,,,,,Crash
+pytorch/pytorch,34351,https://github.com/pytorch/pytorch/issues/34351,open,not resolved,,,,2020.3.6,,,,,Crash
+pytorch/pytorch,34113,https://github.com/pytorch/pytorch/issues/34113,closed,resolved,https://github.com/pytorch/pytorch/pull/39041,766767652ae0bcd35e5ea4c79fc13eed9a8929b0,2019.9.28,2020.3.3,70d977880ac4b72be9a5b3b8da6c011908fff64d,2020.5.28,157,86,Crash
+pytorch/pytorch,34074,https://github.com/pytorch/pytorch/issues/34074,open,not resolved,,,,2020.3.3,,,,,Crash
+pytorch/pytorch,33843,https://github.com/pytorch/pytorch/issues/33843,closed,resolved,https://github.com/pytorch/pytorch/pull/34834,9764c2e6f0ea0ab4b8e032fd06289050821d29f4,2019.8.23,2020.2.27,dcac7ac154c16fb05801ecae9d2431c400602858,2020.3.17,188,20,POP
+pytorch/pytorch,33648,https://github.com/pytorch/pytorch/issues/33648,closed,resolved,https://github.com/pytorch/pytorch/pull/33626,a5ac7f6387c517cee61f869db3a3c80274a811a3,2019.10.18,2020.2.22,996c0adb5381de2656836e2111de420feb2b9c4f,2020.2.25,127,3,Crash
+pytorch/pytorch,33646,https://github.com/pytorch/pytorch/issues/33646,closed,resolved,https://github.com/pytorch/pytorch/pull/38478,1969898647bf33c0b1fd2625c02075d2d543f9e2,2018.11.6,2020.2.22,db3b0cb31c6c5a1f9b0287e97b5f57f00937c645,2020.3.15,108,23,Crash
+pytorch/pytorch,33545,https://github.com/pytorch/pytorch/issues/33545,closed,resolved,https://github.com/pytorch/pytorch/pull/34114,4bcf4796aa68cde64922aa13fbfd2b3111c10526,2019.11.8,2020.2.20,a8fc3d8c2a032a449398df814ee753b5b90853f1,2020.3.4,104,14,OC
+pytorch/pytorch,33487,https://github.com/pytorch/pytorch/issues/33487,closed,feature,,,,2020.2.19,,,,,Crash
+pytorch/pytorch,33466,https://github.com/pytorch/pytorch/issues/33466,closed,resolved,https://github.com/pytorch/pytorch/pull/37683,,,2020.2.19,,,,,Crash
+pytorch/pytorch,33433,https://github.com/pytorch/pytorch/issues/33433,closed,feature,,,,2020.2.18,,,,,Crash
+pytorch/pytorch,33309,https://github.com/pytorch/pytorch/issues/33309,closed,resolved,https://github.com/pytorch/pytorch/pull/44573,7b2e8c323c97f12cff402b347e59541ad67d75cb,2019.10.4,2020.2.14,3f5bb2bade88344105784d3960dfa2a53d08462f,2020.9.17,133,216,Crash
+pytorch/pytorch,33013,https://github.com/pytorch/pytorch/issues/33013,closed,"user,api",,,,2020.2.6,,,,,OC
+pytorch/pytorch,32934,https://github.com/pytorch/pytorch/issues/32934,closed,fixed,,,,2020.2.4,,,,,Crash
+pytorch/pytorch,32859,https://github.com/pytorch/pytorch/issues/32859,closed,question,,,,2020.1.31,,,,,Crash
+pytorch/pytorch,32775,https://github.com/pytorch/pytorch/issues/32775,closed,wont fix,,,,2020.1.30,,,,,MAD
+pytorch/pytorch,32764,https://github.com/pytorch/pytorch/issues/32764,open,not resolved,,,,2020.1.29,,,,,Crash
+pytorch/pytorch,32743,https://github.com/pytorch/pytorch/issues/32743,closed,refer to #32644,,,,2020.1.29,,,,,Crash
+pytorch/pytorch,32691,https://github.com/pytorch/pytorch/issues/32691,closed,"user,api",,,,2020.1.28,,,,,Crash
+pytorch/pytorch,32676,https://github.com/pytorch/pytorch/issues/32676,closed,resolved,https://github.com/pytorch/pytorch/pull/32757,7f1397acefe5df83d6095a7f690ebf799fc78b0d,2019.1.16,2020.1.28,a6d4e8e0a978bc8553adab0a360504766268ae75,2020.1.29,377,1,Crash
+pytorch/pytorch,32644,https://github.com/pytorch/pytorch/issues/32644,open,not resolved,,,,2020.1.27,,,,,Crash
+pytorch/pytorch,32262,https://github.com/pytorch/pytorch/issues/32262,open,not resolved,,,,2020.1.16,,,,,OC
+pytorch/pytorch,32189,https://github.com/pytorch/pytorch/issues/32189,open,not resolved,,,,2020.1.15,,,,,OC
+pytorch/pytorch,32082,https://github.com/pytorch/pytorch/issues/32082,closed,resolved,https://github.com/pytorch/pytorch/pull/32318,f7de9be3c0c7eef08b37e338c04b644a8cb57b75,2019.7.16,2020.1.11,8c1268aad3656b20f97b98278481fab3f93a82b8,2020.1.18,179,7,OC
+pytorch/pytorch,32000,https://github.com/pytorch/pytorch/issues/32000,closed,fixed,,,,2020.1.10,,,,,Crash
+pytorch/pytorch,31868,https://github.com/pytorch/pytorch/issues/31868,closed,fixed,,,,2021.1.5,,,,,Crash
+pytorch/pytorch,31821,https://github.com/pytorch/pytorch/issues/31821,closed,wont fix,,,,2020.1.3,,,,,OC
+pytorch/pytorch,31774,https://github.com/pytorch/pytorch/issues/31774,closed,resolved,https://github.com/pytorch/pytorch/pull/31780,,,2020.1.3,,,,,Crash
+pytorch/pytorch,31684,https://github.com/pytorch/pytorch/issues/31684,closed,feature,,,,2019.12.29,,,,,OC
+pytorch/pytorch,31625,https://github.com/pytorch/pytorch/issues/31625,closed,resolved,https://github.com/pytorch/pytorch/pull/36964,refactor,,2019.12.27,230b68168b6ab5e6496a8425bceef1dbe576d45d,2020.4.24,,119,Crash
+pytorch/pytorch,31549,https://github.com/pytorch/pytorch/issues/31549,closed,resolved,https://github.com/pytorch/pytorch/pull/31972,5040d52a5a272049b9f727b7ffed01dfaabe21e6,2019.7.10,2019.12.22,f995ec207604ac7b8b22c16acd924a14a9035db9,2020.1.11,165,20,MAD
+pytorch/pytorch,31468,https://github.com/pytorch/pytorch/issues/31468,closed,resolved,https://github.com/pytorch/pytorch/pull/31540,0483d537ab694b81a6084474fd29dff197a45097,2019.9.4,2019.12.19,463f7920bd45b522b4675663656873fa9689cab0,2020.3.20,106,92,Crash
+pytorch/pytorch,31316,https://github.com/pytorch/pytorch/issues/31316,open,not resolved,,,,2019.12.17,,,,,Crash
+pytorch/pytorch,31192,https://github.com/pytorch/pytorch/issues/31192,closed,resolved,https://github.com/pytorch/pytorch/pull/30149,test,,2019.12.13,,,,,Crash
+pytorch/pytorch,30675,https://github.com/pytorch/pytorch/issues/30675,closed,"user,api",,,,2019.12.4,,,,,Crash
+pytorch/pytorch,30604,https://github.com/pytorch/pytorch/issues/30604,open,not resolved,,,,2019.12.2,,,,,Crash
+pytorch/pytorch,30349,https://github.com/pytorch/pytorch/issues/30349,closed,feature,,,,2019.11.23,,,,,POP
+pytorch/pytorch,30348,https://github.com/pytorch/pytorch/issues/30348,closed,resolved,https://github.com/pytorch/pytorch/pull/30485,dcbfc3bdbff18c194339e903c069996391221441,2019.9.19,2019.11.23,8254a63802a1abef3badac08b2090f4fd993ea7a,2020.4.25,95,124,POP
+pytorch/pytorch,30125,https://github.com/pytorch/pytorch/issues/30125,closed,not repro,,,,2019.11.20,,,,,MAD
+pytorch/pytorch,29724,https://github.com/pytorch/pytorch/issues/29724,closed,wont fix,,,,2019.11.13,,,,,Crash
+pytorch/pytorch,29649,https://github.com/pytorch/pytorch/issues/29649,closed,resolved,https://github.com/pytorch/pytorch/pull/30120,e9d1b852c4b9b7f04df5dfaf1613c5e1da6444d4,2019.6.28,2019.11.12,97230b52e547513d334a08ae8f63688d31e3e265,2019.11.20,137,8,Crash
+pytorch/pytorch,29648,https://github.com/pytorch/pytorch/issues/29648,closed,fixed,,,,2019.11.12,,,,,Crash
+pytorch/pytorch,29646,https://github.com/pytorch/pytorch/issues/29646,closed,resolved,https://github.com/pytorch/pytorch/pull/30636,6bb7433ad513f22ee2a2eb4f0e7cef59c7aef2a2,2019.10.4,2019.11.12,d9dd983f9189e28f9b7df14f269de6501ddcd3ac,2019.12.2,38,20,OC
+pytorch/pytorch,29644,https://github.com/pytorch/pytorch/issues/29644,open,not resolved,,,,2019.11.12,,,,,OC
+pytorch/pytorch,29538,https://github.com/pytorch/pytorch/issues/29538,closed,wont fix,,,,2019.11.11,,,,,Crash
+pytorch/pytorch,29435,https://github.com/pytorch/pytorch/issues/29435,closed,resolved,https://github.com/pytorch/pytorch/pull/29576,test,,2019.11.8,,,,,Crash
+pytorch/pytorch,29327,https://github.com/pytorch/pytorch/issues/29327,closed,resolved,https://github.com/pytorch/pytorch/pull/33250,,,2019.11.7,,,,,Crash
+pytorch/pytorch,29326,https://github.com/pytorch/pytorch/issues/29326,closed,resolved,https://github.com/pytorch/pytorch/pull/29328,test,,2019.11.7,,,,,Crash
+pytorch/pytorch,29102,https://github.com/pytorch/pytorch/issues/29102,closed,"wont fix,user,api",,,,2019.11.4,,,,,OC
+pytorch/pytorch,29032,https://github.com/pytorch/pytorch/issues/29032,closed,resolved,https://github.com/pytorch/pytorch/pull/30357,b0a2f6f2f5cc7077c5a4301f429e16e5fbe1acdc,2019.9.28,2019.11.2,cd715a5c4a587b534a3a3881e0e6fdb9129fb267,2019.11.23,34,21,OC
+pytorch/pytorch,28945,https://github.com/pytorch/pytorch/issues/28945,closed,"user,api",,,,2019.10.31,,,,,Crash
+pytorch/pytorch,28844,https://github.com/pytorch/pytorch/issues/28844,closed,question,,,,2019.10.30,,,,,Crash
+pytorch/pytorch,28808,https://github.com/pytorch/pytorch/issues/28808,closed,resolved,https://github.com/pytorch/pytorch/pull/28807,,,2019.10.29,,,,,Crash
+pytorch/pytorch,28778,https://github.com/pytorch/pytorch/issues/28778,closed,question,,,,2019.10.28,,,,,POP
+pytorch/pytorch,28776,https://github.com/pytorch/pytorch/issues/28776,closed,question,,,,2019.10.28,,,,,Crash
+pytorch/pytorch,28771,https://github.com/pytorch/pytorch/issues/28771,closed,"user,api",,,,2019.10.28,,,,,OC
+pytorch/pytorch,28705,https://github.com/pytorch/pytorch/issues/28705,closed,wont fix,,,,2019.10.26,,,,,Crash
+pytorch/pytorch,28653,https://github.com/pytorch/pytorch/issues/28653,closed,wont fix,,,,2019.10.26,,,,,POP
+pytorch/pytorch,28518,https://github.com/pytorch/pytorch/issues/28518,closed,resolved,https://github.com/pytorch/pytorch/pull/28635,9b7011c5c2a47575ef5cd70185d2c66f39b198b9,2019.9.21,2019.10.24,28be2d4994cffd2cc31d41c3995d0953b7c23849,2019.10.31,33,7,Crash
+pytorch/pytorch,28483,https://github.com/pytorch/pytorch/issues/28483,closed,refer to #28518,,,,2019.10.23,,,,,Crash
+pytorch/pytorch,28434,https://github.com/pytorch/pytorch/issues/28434,closed,fixed,,,,2019.10.23,,,,,OC
+pytorch/pytorch,28404,https://github.com/pytorch/pytorch/issues/28404,closed,"user,api",,,,2019.10.22,,,,,Crash
+pytorch/pytorch,28375,https://github.com/pytorch/pytorch/issues/28375,closed,resolved,https://github.com/pytorch/pytorch/pull/28384,5040d52a5a272049b9f727b7ffed01dfaabe21e6,2019.7.10,2019.10.22,94757e035dbe26f2b55d1b1d30ef78fb13a4e8a7,2019.10.22,102,0,Crash
+pytorch/pytorch,28357,https://github.com/pytorch/pytorch/issues/28357,closed,feature,,,,2019.10.21,,,,,Crash
+pytorch/pytorch,28346,https://github.com/pytorch/pytorch/issues/28346,closed,fixed,,,,2019.10.21,,,,,Crash
+pytorch/pytorch,28337,https://github.com/pytorch/pytorch/issues/28337,closed,wont fix,,,,2019.10.20,,,,,Crash
+pytorch/pytorch,28331,https://github.com/pytorch/pytorch/issues/28331,closed,refer to #28517,,,,2019.10.19,,,,,OC
+pytorch/pytorch,28328,https://github.com/pytorch/pytorch/issues/28328,closed,resolved,https://github.com/pytorch/pytorch/pull/28612,,,2019.10.19,,,,,Crash
+pytorch/pytorch,28323,https://github.com/pytorch/pytorch/issues/28323,open,not resolved,,,,2019.10.19,,,,,Crash
+pytorch/pytorch,28071,https://github.com/pytorch/pytorch/issues/28071,closed,"user,api",,,,2019.10.16,,,,,MAD
+pytorch/pytorch,28070,https://github.com/pytorch/pytorch/issues/28070,closed,"user,api",,,,2019.10.16,,,,,Crash
+pytorch/pytorch,28015,https://github.com/pytorch/pytorch/issues/28015,closed,resolved,https://github.com/pytorch/pytorch/pull/28193,0a8a779abea410548a856c5677f135efadc40320,2019.9.26,2019.10.16,07b5666a87078de0fda8d25b1f0757a5acb3661d,2019.10.18,20,2,MAD
+pytorch/pytorch,27793,https://github.com/pytorch/pytorch/issues/27793,closed,resolved,https://github.com/pytorch/pytorch/pull/32479,ec1e53b462ca4d0da85926e17a0348a639133adb,2019.8.14,2019.10.12,9b0c97c0184cba641e664a87da06a8e8b1dcc859,2020.1.24,58,104,Crash
+pytorch/pytorch,27739,https://github.com/pytorch/pytorch/issues/27739,closed,"user,api",,,,2019.10.11,,,,,Crash
+pytorch/pytorch,27729,https://github.com/pytorch/pytorch/issues/27729,closed,resolved,https://github.com/pytorch/pytorch/pull/27829,documentation,,2019.10.11,169327f557bcf9f0a1300e23336d07479320b0a7,2019.10.15,,4,MAD
+pytorch/pytorch,27625,https://github.com/pytorch/pytorch/issues/27625,closed,inactive,,,,2019.10.10,,,,,Crash
+pytorch/pytorch,27622,https://github.com/pytorch/pytorch/issues/27622,closed,inactive,,,,2019.10.10,,,,,OC
+pytorch/pytorch,27618,https://github.com/pytorch/pytorch/issues/27618,closed,fixed,,,,2019.10.10,,,,,OC
+pytorch/pytorch,27451,https://github.com/pytorch/pytorch/issues/27451,closed,resolved,https://github.com/pytorch/pytorch/pull/30372,62767077c33b311833c1ef8f9ab1cc6c76771f6c,2019.9.12,2019.10.7,8598a8c15d98d0a37cf5be8aa1a7258e10e6dd43,2019.11.22,25,45,Crash
+pytorch/pytorch,27450,https://github.com/pytorch/pytorch/issues/27450,closed,fixed,,,,2019.10.7,,,,,OC
+pytorch/pytorch,27433,https://github.com/pytorch/pytorch/issues/27433,closed,doc,,,,2019.10.6,,,,,Crash
+pytorch/pytorch,27432,https://github.com/pytorch/pytorch/issues/27432,closed,doc,,,,2019.10.6,,,,,OC
+pytorch/pytorch,27431,https://github.com/pytorch/pytorch/issues/27431,closed,doc,,,,2019.10.6,,,,,OC
+pytorch/pytorch,27430,https://github.com/pytorch/pytorch/issues/27430,closed,resolved,https://github.com/pytorch/pytorch/pull/27850,,,2019.10.6,,,,,Crash
+pytorch/pytorch,27428,https://github.com/pytorch/pytorch/issues/27428,closed,resolved,https://github.com/pytorch/pytorch/pull/27415,documentation,,2019.10.6,,,,,OC
+pytorch/pytorch,27380,https://github.com/pytorch/pytorch/issues/27380,closed,fixed,,,,2019.10.5,,,,,OC
+pytorch/pytorch,27326,https://github.com/pytorch/pytorch/issues/27326,closed,resolved,https://github.com/pytorch/pytorch/pull/29176,,,2019.10.4,,,,,Crash
+pytorch/pytorch,27317,https://github.com/pytorch/pytorch/issues/27317,closed,resolved,https://github.com/pytorch/pytorch/commit/b800134b332e1716dcd35ca9c9ef3615939d15d0,,,2019.10.4,b800134b332e1716dcd35ca9c9ef3615939d15d0,2019.10.9,,5,OC
+pytorch/pytorch,27152,https://github.com/pytorch/pytorch/issues/27152,closed,resolved,https://github.com/gottbrath/pytorch/pull/7,not the official repo,,2019.10.2,,,,,Crash
+pytorch/pytorch,26429,https://github.com/pytorch/pytorch/issues/26429,open,resolved,,,,2019.9.19,,,,,Crash
+pytorch/pytorch,26279,https://github.com/pytorch/pytorch/issues/26279,closed,resolved,https://github.com/pytorch/pytorch/pull/27616,,,2019.9.17,,,,,Crash
+pytorch/pytorch,25962,https://github.com/pytorch/pytorch/issues/25962,closed,not repro,,,,2019.9.11,,,,,Crash
+pytorch/pytorch,25413,https://github.com/pytorch/pytorch/issues/25413,closed,resolved,https://github.com/pytorch/pytorch/pull/25934,,,2019.8.30,,,,,Crash
+pytorch/pytorch,25401,https://github.com/pytorch/pytorch/issues/25401,closed,fixed,,,,2019.8.30,,,,,OC
+pytorch/pytorch,25386,https://github.com/pytorch/pytorch/issues/25386,closed,resolved,https://github.com/pytorch/pytorch/pull/25513,,,2019.8.29,999604a8fef9ac8afe15504a9459f49f29984cb6,2019.9.6,,7,Crash
+pytorch/pytorch,25314,https://github.com/pytorch/pytorch/issues/25314,open,not resolved,,,,2019.8.29,,,,,Crash
+pytorch/pytorch,25248,https://github.com/pytorch/pytorch/issues/25248,open,not resolved,,,,2019.8.27,,,,,MAD
+pytorch/pytorch,25097,https://github.com/pytorch/pytorch/issues/25097,closed,resolved,https://github.com/pytorch/pytorch/pull/25249,test,,2019.8.24,,,,,Crash
+pytorch/pytorch,25096,https://github.com/pytorch/pytorch/issues/25096,closed,resolved,https://github.com/pytorch/pytorch/pull/26853,test,,2019.8.24,,,,,Crash
+pytorch/pytorch,24394,https://github.com/pytorch/pytorch/issues/24394,closed,resolved,https://github.com/pytorch/pytorch/pull/24418,5040d52a5a272049b9f727b7ffed01dfaabe21e6,2019.7.10,2019.8.15,https://github.com/pytorch/pytorch/commit/1a74bd407de335019afdcb748a758107092a8019,2019.8.16,35,1,Crash
+pytorch/pytorch,24359,https://github.com/pytorch/pytorch/issues/24359,closed,fixed,,,,2019.8.15,,,,,Crash
+pytorch/pytorch,24265,https://github.com/pytorch/pytorch/issues/24265,closed,fixed,,,,2019.8.14,,,,,Crash
+pytorch/pytorch,23986,https://github.com/pytorch/pytorch/issues/23986,closed,resolved,https://github.com/pytorch/pytorch/pull/36740,test,,2019.8.8,,,,,Crash
+pytorch/pytorch,23944,https://github.com/pytorch/pytorch/issues/23944,closed,fixed,,,,2019.8.8,,,,,POP
+pytorch/pytorch,23931,https://github.com/pytorch/pytorch/issues/23931,closed,fixed,,,,2019.8.7,,,,,Crash
+pytorch/pytorch,23929,https://github.com/pytorch/pytorch/issues/23929,closed,resolved,https://github.com/pytorch/pytorch/pull/24046,acbd9c49b0f3414b2a161731b0b46aa0712d78f7,2018.12.22,2019.8.7,f3e7aa9e933a5b89fde81555c33a5bca23583b69,2019.8.10,228,3,Crash
+pytorch/pytorch,23883,https://github.com/pytorch/pytorch/issues/23883,closed,fixed,,,,2019.8.7,,,,,OC
+pytorch/pytorch,23881,https://github.com/pytorch/pytorch/issues/23881,closed,resolved,https://github.com/pytorch/pytorch/pull/23991,94711d7471e573e72e8d74997a67c025a73e2fe9,2019.7.25,2019.8.7,a0556782a04ab269265e05131f861be76edf556b,2019.8.10,12,3,OC
+pytorch/pytorch,23877,https://github.com/pytorch/pytorch/issues/23877,closed,fixed,,,,2019.8.7,,,,,Crash
+pytorch/pytorch,23875,https://github.com/pytorch/pytorch/issues/23875,open,not resolved,,,,2019.8.7,,,,,Crash
+pytorch/pytorch,23874,https://github.com/pytorch/pytorch/issues/23874,open,resolved,https://github.com/pytorch/pytorch/pull/24789,same,,2019.8.7,ea601d90d64f241d3f5f4ac3384d3386a2399ce0,2019.8.27,,20,OC
+pytorch/pytorch,23871,https://github.com/pytorch/pytorch/issues/23871,closed,fixed,,,,2019.8.7,,,,,POP
+pytorch/pytorch,23870,https://github.com/pytorch/pytorch/issues/23870,closed,resolved,https://github.com/pytorch/pytorch/pull/23753,,,2019.8.6,,,,,Crash
+pytorch/pytorch,23838,https://github.com/pytorch/pytorch/issues/23838,closed,fixed,,,,2019.8.6,,,,,Crash
+pytorch/pytorch,23763,https://github.com/pytorch/pytorch/issues/23763,closed,resolved,https://github.com/pytorch/pytorch/pull/23718,test,,2019.8.4,40f0b1c844788f5e99de338553eb711d226c0638,2019.8.7,,3,Crash
+pytorch/pytorch,23750,https://github.com/pytorch/pytorch/issues/23750,closed,"user,api",,,,2019.8.3,,,,,Crash
+pytorch/pytorch,23440,https://github.com/pytorch/pytorch/issues/23440,closed,resolved,https://github.com/pytorch/pytorch/pull/22931,dadc23cafb6e6442e822f3933edc2d26c5111ca7,2017.11.3,2019.7.27,953459f29e583303b1b164f7de28e084a9c97806,2019.7.27,631,0,POP
+pytorch/pytorch,23080,https://github.com/pytorch/pytorch/issues/23080,closed,resolved,https://github.com/pytorch/pytorch/commit/9f4df63c2cc365fc790c46e8ba89e8251e2f18a2,,,2019.7.20,,,,,Crash
+pytorch/pytorch,21329,https://github.com/pytorch/pytorch/issues/21329,closed,resolved,https://github.com/pytorch/pytorch/pull/21328,,,2019.6.4,,,,,Crash
+pytorch/pytorch,20804,https://github.com/pytorch/pytorch/issues/20804,closed,resolved,https://github.com/pytorch/pytorch/pull/21293,c7b1fdb76723a2d0f1fa560b3ff25d088b3b349c,2019.4.18,2019.6.4,6450368a913711ef1dfbe332e8a79222723f3b7f,2019.6.4,46,0,Crash
+pytorch/pytorch,20642,https://github.com/pytorch/pytorch/issues/20642,closed,resolved,https://github.com/pytorch/pytorch/pull/20853,abb3698976f53acaffb96f92c61f33926693595f,2019.5.16,2019.5.17,5f83c5d8349fb0c3645146efe7ad4b4f20fca457,2019.5.24,1,7,Crash
+pytorch/pytorch,18318,https://github.com/pytorch/pytorch/issues/18318,closed,fixed,,,,2019.3.22,,,,,Crash
+pytorch/pytorch,7553,https://github.com/pytorch/pytorch/issues/7553,closed,fixed,,,,2019.3.15,,,,,Crash
+tensorflow/tensorflow,55688,https://github.com/tensorflow/tensorflow/issues/55688,closed,refer to #46910,,,,2022.4.21,,,,,Crash
+tensorflow/tensorflow,53235,https://github.com/tensorflow/tensorflow/issues/53235,closed,inactive,,,,2021.11.30,,,,,Crash
+tensorflow/tensorflow,50857,https://github.com/tensorflow/tensorflow/issues/50857,open,not resolved,,,,2021.7.21,,,,,MAD
+tensorflow/tensorflow,50725,https://github.com/tensorflow/tensorflow/issues/50725,closed,"user,api",,,,2021.7.12,,,,,Crash
+tensorflow/tensorflow,50180,https://github.com/tensorflow/tensorflow/issues/50180,closed,inactive,,,,2021.6.10,,,,,Crash
+tensorflow/tensorflow,50172,https://github.com/tensorflow/tensorflow/issues/50172,open,not resolved,,,,2021.6.9,,,,,OC
+tensorflow/tensorflow,48959,https://github.com/tensorflow/tensorflow/issues/48959,open,not resolved,,,,2021.5.7,,,,,MAD
+tensorflow/tensorflow,48823,https://github.com/tensorflow/tensorflow/issues/48823,closed,inactive,,,,2021.4.29,,,,,OC
+tensorflow/tensorflow,48774,https://github.com/tensorflow/tensorflow/issues/48774,closed,inactive,,,,2021.4.27,,,,,MAD
+tensorflow/tensorflow,48752,https://github.com/tensorflow/tensorflow/issues/48752,open,not resolved,,,,2021.4.26,,,,,OC
+tensorflow/tensorflow,48675,https://github.com/tensorflow/tensorflow/issues/48675,closed,inactive,,,,2021.4.22,,,,,Crash
+tensorflow/tensorflow,48587,https://github.com/tensorflow/tensorflow/issues/48587,closed,fixed,,,,2021.4.17,,,,,Crash
+tensorflow/tensorflow,48548,https://github.com/tensorflow/tensorflow/issues/48548,closed,inactive,,,,2021.4.16,,,,,Crash
+tensorflow/tensorflow,48497,https://github.com/tensorflow/tensorflow/issues/48497,open,not resolved,,,,2021.4.13,,,,,Crash
+tensorflow/tensorflow,48307,https://github.com/tensorflow/tensorflow/issues/48307,closed,resolved,https://github.com/tensorflow/tensorflow/commit/9d25fe457e7b1fd947bd098f0b84c03967fcd6c7,ec59a624ac3c20c800ef7dfb759daf1e5bd11efa,2020.8.21,2021.4.5,9d25fe457e7b1fd947bd098f0b84c03967fcd6c7,2021.5.12,227,37,Crash
+tensorflow/tensorflow,48282,https://github.com/tensorflow/tensorflow/issues/48282,closed,fixed,,,,2021.4.3,,,,,Crash
+tensorflow/tensorflow,48212,https://github.com/tensorflow/tensorflow/issues/48212,open,not resolved,,,,2021.3.31,,,,,MAD
+tensorflow/tensorflow,48074,https://github.com/tensorflow/tensorflow/issues/48074,closed,fixed,,,,2021.3.25,,,,,OC
+tensorflow/tensorflow,48043,https://github.com/tensorflow/tensorflow/issues/48043,open,not resolved,,,,2021.3.24,,,,,MAD
+tensorflow/tensorflow,47983,https://github.com/tensorflow/tensorflow/issues/47983,closed,"user,api",,,,2021.3.23,,,,,Crash
+tensorflow/tensorflow,47858,https://github.com/tensorflow/tensorflow/issues/47858,open,not resolved,,,,2021.3.17,,,,,OC
+tensorflow/tensorflow,47838,https://github.com/tensorflow/tensorflow/issues/47838,open,not resolved,,,,2021.3.17,,,,,OC
+tensorflow/tensorflow,47746,https://github.com/tensorflow/tensorflow/issues/47746,open,not resolved,,,,2021.3.12,,,,,Crash
+tensorflow/tensorflow,47488,https://github.com/tensorflow/tensorflow/issues/47488,closed,"user,api",,,,2021.3.2,,,,,Crash
+tensorflow/tensorflow,46922,https://github.com/tensorflow/tensorflow/issues/46922,closed,fixed,,,,2021.2.2,,,,,Crash
+tensorflow/tensorflow,46910,https://github.com/tensorflow/tensorflow/issues/46910,open,not resolved,,,,2021.2.4,,,,,OC
+tensorflow/tensorflow,46844,https://github.com/tensorflow/tensorflow/issues/46844,closed,wont fix,,,,2021.2.2,,,,,Crash
+tensorflow/tensorflow,46754,https://github.com/tensorflow/tensorflow/issues/46754,closed,"user,api",,,,2021.1.28,,,,,Crash
+tensorflow/tensorflow,46707,https://github.com/tensorflow/tensorflow/issues/46707,closed,resolved,https://github.com/tensorflow/tensorflow/commit/6be1ebb8498e2ccdb5d05ad673678b98a9373346,f452e85f3efadd6243b2ef3e15b3faaa950361a3,2020.3.11,2021.1.27,6be1ebb8498e2ccdb5d05ad673678b98a9373346,2021.2.4,322,8,Crash
+tensorflow/tensorflow,46679,https://github.com/tensorflow/tensorflow/issues/46679,open,not resolved,,,,2021.1.26,,,,,OC
+tensorflow/tensorflow,46395,https://github.com/tensorflow/tensorflow/issues/46395,closed,not supported,,,,2021.1.13,,,,,Crash
+tensorflow/tensorflow,25563,https://github.com/tensorflow/tensorflow/issues/25563,closed,fixed,,,,2021.2.7,,,,,Crash
+tensorflow/model-optimization,1002,https://github.com/tensorflow/model-optimization/issues/1002,open,not resolved,,,,2022.7.26,,,,,MAD
+tensorflow/model-optimization,1000,https://github.com/tensorflow/model-optimization/issues/1000,open,not resolved,,,,2022.7.24,,,,,OC
+tensorflow/model-optimization,996,https://github.com/tensorflow/model-optimization/issues/996,open,not resolved,,,,2022.7.19,,,,,OC
+tensorflow/model-optimization,980,https://github.com/tensorflow/model-optimization/issues/980,open,not resolved,,,,2022.6.10,,,,,Crash
+tensorflow/model-optimization,979,https://github.com/tensorflow/model-optimization/issues/979,open,not resolved,,,,2022.6.10,,,,,OC
+tensorflow/model-optimization,975,https://github.com/tensorflow/model-optimization/issues/975,open,not resolved,,,,2022.6.3,,,,,OC
+tensorflow/model-optimization,974,https://github.com/tensorflow/model-optimization/issues/974,open,not resolved,,,,2022.5.26,,,,,MAD
+tensorflow/model-optimization,973,https://github.com/tensorflow/model-optimization/issues/973,open,not resolved,,,,2022.5.26,,,,,OC
+tensorflow/model-optimization,972,https://github.com/tensorflow/model-optimization/issues/972,closed,"user,api",,,,2022.5.21,,,,,Crash
+tensorflow/model-optimization,965,https://github.com/tensorflow/model-optimization/issues/965,open,not resolved,,,,2022.4.29,,,,,Crash
+tensorflow/model-optimization,964,https://github.com/tensorflow/model-optimization/issues/964,open,not resolved,,,,2022.4.18,,,,,Crash
+tensorflow/model-optimization,941,https://github.com/tensorflow/model-optimization/issues/941,open,not resolved,,,,2022.3.4,,,,,Crash
+tensorflow/model-optimization,940,https://github.com/tensorflow/model-optimization/issues/940,open,resolved,https://github.com/tensorflow/model-optimization/pull/952,8bf30d7a43647e3b18a433e7db9f9aa23cabc07e,2020.4.10,2022.5.3,316e9414575c161dc5c1b7814cc70a659d85bfee,2022.5.13,23,10,Crash
+tensorflow/model-optimization,939,https://github.com/tensorflow/model-optimization/issues/939,open,resolved,https://github.com/tensorflow/model-optimization/pull/951,97aca5b00a9ea6f504b42b6eb7988a2e6c1e0be7,2021.12.7,2022.3.1,226f21ee96986b4428cd9ee0ebca64ff3a5d3f26,2022.5.12,84,71,MAD
+tensorflow/model-optimization,918,https://github.com/tensorflow/model-optimization/issues/918,closed,"user,api",,,,2022.1.15,,,,,OC
+tensorflow/model-optimization,911,https://github.com/tensorflow/model-optimization/issues/911,closed,"user,api",,,,2022.1.8,,,,,OC
+tensorflow/model-optimization,902,https://github.com/tensorflow/model-optimization/issues/902,closed,question,,,,2021.12.24,,,,,Crash
+tensorflow/model-optimization,889,https://github.com/tensorflow/model-optimization/issues/889,closed,"user,api",,,,2021.11.30,,,,,OC
+tensorflow/model-optimization,887,https://github.com/tensorflow/model-optimization/issues/887,closed,fixed,,,,2021.11.23,,,,,OC
+tensorflow/model-optimization,881,https://github.com/tensorflow/model-optimization/issues/881,open,not resolved,,,,2021.11.11,,,,,OC
+tensorflow/model-optimization,875,https://github.com/tensorflow/model-optimization/issues/875,open,not resolved,,,,2021.11.1,,,,,MAD
+tensorflow/model-optimization,874,https://github.com/tensorflow/model-optimization/issues/874,closed,fixed,,,,2021.10.28,,,,,Crash
+tensorflow/model-optimization,869,https://github.com/tensorflow/model-optimization/issues/869,open,not resolved,,,,2021.10.26,,,,,OC
+tensorflow/model-optimization,868,https://github.com/tensorflow/model-optimization/issues/868,open,not resolved,,,,2021.10.22,,,,,Crash
+tensorflow/model-optimization,867,https://github.com/tensorflow/model-optimization/issues/867,open,not resolved,,,,2021.10.22,,,,,Crash
+tensorflow/model-optimization,864,https://github.com/tensorflow/model-optimization/issues/864,open,not resolved,,,,2021.10.14,,,,,Crash
+tensorflow/model-optimization,835,https://github.com/tensorflow/model-optimization/issues/835,closed,not repro,,,,2021.9.15,,,,,Crash
+tensorflow/model-optimization,823,https://github.com/tensorflow/model-optimization/issues/823,open,not resolved,,,,2021.9.7,,,,,OC
+tensorflow/model-optimization,813,https://github.com/tensorflow/model-optimization/issues/813,open,not resolved,,,,2021.8.24,,,,,Crash
+tensorflow/model-optimization,799,https://github.com/tensorflow/model-optimization/issues/799,open,not resolved,,,,2021.8.24,,,,,MAD
+tensorflow/model-optimization,795,https://github.com/tensorflow/model-optimization/issues/795,open,resolved,https://github.com/tensorflow/model-optimization/pull/815,776f923bb806bb23477f5af99ecf2c0e14d331b6,2019.5.11,2021.8.18,d06772ef47bc528cbc46e35a454494ed7db33bd0,2021.9.30,830,42,POP
+tensorflow/model-optimization,763,https://github.com/tensorflow/model-optimization/issues/763,open,not resolved,,,,2021.7.16,,,,,Crash
+tensorflow/model-optimization,760,https://github.com/tensorflow/model-optimization/issues/760,open,not resolved,,,,2021.7.12,,,,,POP
+tensorflow/model-optimization,753,https://github.com/tensorflow/model-optimization/issues/753,closed,resolved,https://github.com/tensorflow/model-optimization/commit/cad07f36b6aa0b3092c0c9cd0e7a9d74b8c36c48,d942a15881fce89a6bb68f5723de1075c8fbee27,2021.5.6,2021.7.1,cad07f36b6aa0b3092c0c9cd0e7a9d74b8c36c48,2021.8.11,55,41,Crash
+tensorflow/model-optimization,751,https://github.com/tensorflow/model-optimization/issues/751,open,not resolved,,,,2021.6.30,,,,,Crash
+tensorflow/model-optimization,723,https://github.com/tensorflow/model-optimization/issues/723,open,not resolved,,,,2021.5.31,,,,,Crash
+tensorflow/model-optimization,722,https://github.com/tensorflow/model-optimization/issues/722,open,not resolved,,,,2021.5.31,,,,,POP
+tensorflow/model-optimization,714,https://github.com/tensorflow/model-optimization/issues/714,closed,fixed,,,,2021.5.20,,,,,Crash
+tensorflow/model-optimization,668,https://github.com/tensorflow/model-optimization/issues/668,open,not resolved,,,,2021.4.19,,,,,Crash
+tensorflow/model-optimization,661,https://github.com/tensorflow/model-optimization/issues/661,closed,resolved,https://github.com/tensorflow/model-optimization/commit/3d73ed2e8676ff2585a7086e283a01fb155c3580,daf89773d4acdb720e6cb9c925d16d88fadc7ae6,2019.10.3,2021.4.9,3d73ed2e8676ff2585a7086e283a01fb155c3580,2021.4.12,554,3,Crash
+tensorflow/model-optimization,659,https://github.com/tensorflow/model-optimization/issues/659,closed,resolved,https://github.com/tensorflow/model-optimization/pull/616,417aa54ecb0ef4f74c64ab6632c73bd800dc801d,2021.3.2,2021.4.8,69376e42b165a75055345f0c4d03989f2941fa8d,2021.4.13,36,5,Crash
+tensorflow/model-optimization,655,https://github.com/tensorflow/model-optimization/issues/655,closed,resolved,https://github.com/tensorflow/model-optimization/pull/607,,,2021.4.1,,,,,Crash
+tensorflow/model-optimization,652,https://github.com/tensorflow/model-optimization/issues/652,closed,"user,api",,,,2021.3.30,,,,,Crash
+tensorflow/model-optimization,644,https://github.com/tensorflow/model-optimization/issues/644,open,not resolved,,,,2021.3.10,,,,,Crash
+tensorflow/model-optimization,643,https://github.com/tensorflow/model-optimization/issues/643,closed,inactive,,,,2021.3.5,,,,,Crash
+tensorflow/model-optimization,640,https://github.com/tensorflow/model-optimization/issues/640,closed,not a bug,,,,2021.3.1,,,,,OC
+tensorflow/model-optimization,636,https://github.com/tensorflow/model-optimization/issues/636,closed,inactive,,,,2021.2.25,,,,,Crash
+tensorflow/model-optimization,635,https://github.com/tensorflow/model-optimization/issues/635,open,resolved,https://github.com/tensorflow/tensorflow/pull/48580,41b87d6ceb3dc8756ea8f448e2233712041f39d2,2017.6.1,2021.2.23,e4f883065966d41ce6e04061100c3c5d8e0eec7a,2021.7.2,1363,129,MAD
+tensorflow/model-optimization,631,https://github.com/tensorflow/model-optimization/issues/631,closed,resolved,https://github.com/tensorflow/model-optimization/pull/630,test,,2021.2.18,,,,,OC
+tensorflow/model-optimization,627,https://github.com/tensorflow/model-optimization/issues/627,closed,fixed,,,,2021.2.11,,,,,Crash
+tensorflow/model-optimization,623,https://github.com/tensorflow/model-optimization/issues/623,closed,fixed,,,,2021.1.26,,,,,OC
+tensorflow/model-optimization,622,https://github.com/tensorflow/model-optimization/issues/622,open,resolved,https://github.com/tensorflow/model-optimization/pull/757,test,,2021.1.25,,,,,OC
+tensorflow/model-optimization,620,https://github.com/tensorflow/model-optimization/issues/620,closed,"user,api",,,,2021.1.21,,,,,Crash
+tensorflow/model-optimization,608,https://github.com/tensorflow/model-optimization/issues/608,closed,"user,api,format",,,,2021.1.2,,,,,Crash
+tensorflow/model-optimization,603,https://github.com/tensorflow/model-optimization/issues/603,open,not resolved,,,,2020.12.3,,,,,Crash
+tensorflow/model-optimization,601,https://github.com/tensorflow/model-optimization/issues/601,open,not resolved,,,,2020.11.25,,,,,OC
+tensorflow/model-optimization,599,https://github.com/tensorflow/model-optimization/issues/599,closed,fixed,,,,2020.11.24,,,,,POP
+tensorflow/model-optimization,595,https://github.com/tensorflow/model-optimization/issues/595,closed,not repro,,,,2020.11.18,,,,,OC
+tensorflow/model-optimization,594,https://github.com/tensorflow/model-optimization/issues/594,open,not resolved,,,,2020.11.17,,,,,N/A
+tensorflow/model-optimization,590,https://github.com/tensorflow/model-optimization/issues/590,closed,"user,api",,,,2020.11.8,,,,,Crash
+tensorflow/model-optimization,574,https://github.com/tensorflow/model-optimization/issues/574,closed,not supported,,,,2020.10.16,,,,,Crash
+tensorflow/model-optimization,556,https://github.com/tensorflow/model-optimization/issues/556,open,not resolved,,,,2020.9.25,,,,,Crash
+tensorflow/model-optimization,552,https://github.com/tensorflow/model-optimization/issues/552,closed,"user,api",,,,2020.9.21,,,,,OC
+tensorflow/model-optimization,550,https://github.com/tensorflow/model-optimization/issues/550,closed,fixed,,,,2020.9.21,,,,,OC
+tensorflow/model-optimization,546,https://github.com/tensorflow/model-optimization/issues/546,open,not resolved,,,,2020.9.16,,,,,Crash
+tensorflow/model-optimization,528,https://github.com/tensorflow/model-optimization/issues/528,closed,inactive,,,,2020.8.24,,,,,N/A
+tensorflow/model-optimization,526,https://github.com/tensorflow/model-optimization/issues/526,closed,fixed,,,,2020.8.21,,,,,Crash
+tensorflow/model-optimization,524,https://github.com/tensorflow/model-optimization/issues/524,open,not resolved,,,,2020.8.20,,,,,OC
+tensorflow/model-optimization,523,https://github.com/tensorflow/model-optimization/issues/523,open,not resolved,,,,2020.8.20,,,,,OC
+tensorflow/model-optimization,457,https://github.com/tensorflow/model-optimization/issues/457,closed,fixed,,,,2020.7.12,,,,,Crash
+tensorflow/model-optimization,456,https://github.com/tensorflow/model-optimization/issues/456,closed,not a bug,,,,2020.7.12,,,,,Crash
+tensorflow/model-optimization,450,https://github.com/tensorflow/model-optimization/issues/450,open,not resolved,,,,2020.7.2,,,,,N/A
+tensorflow/model-optimization,448,https://github.com/tensorflow/model-optimization/issues/448,closed,not a bug,,,,2020.7.2,,,,,Crash
+tensorflow/model-optimization,439,https://github.com/tensorflow/model-optimization/issues/439,closed,not repro,,,,2020.6.25,,,,,MAD
+tensorflow/model-optimization,434,https://github.com/tensorflow/model-optimization/issues/434,closed,"user,api",,,,2020.6.19,,,,,Crash
+tensorflow/model-optimization,431,https://github.com/tensorflow/model-optimization/issues/431,closed,fixed,,,,2020.6.18,,,,,OC
+tensorflow/model-optimization,430,https://github.com/tensorflow/model-optimization/issues/430,closed,not a bug,,,,2020.6.18,,,,,MAD
+tensorflow/model-optimization,429,https://github.com/tensorflow/model-optimization/issues/429,closed,"user,api",,,,2020.6.17,,,,,Crash
+tensorflow/model-optimization,426,https://github.com/tensorflow/model-optimization/issues/426,open,not resolved,,,,2020.6.13,,,,,Crash
+tensorflow/model-optimization,424,https://github.com/tensorflow/model-optimization/issues/424,closed,"user,api",,,,2020.6.11,,,,,Crash
+tensorflow/model-optimization,412,https://github.com/tensorflow/model-optimization/issues/412,closed,fixed,,,,2020.5.30,,,,,Crash
+tensorflow/model-optimization,410,https://github.com/tensorflow/model-optimization/issues/410,closed,not a bug,,,,2020.5.29,,,,,Crash
+tensorflow/model-optimization,403,https://github.com/tensorflow/model-optimization/issues/403,open,not resolved,,,,2020.5.21,,,,,OC
+tensorflow/model-optimization,401,https://github.com/tensorflow/model-optimization/issues/401,closed,resolved,https://github.com/tensorflow/model-optimization/pull/414,627554f7b8ddce90719d41118c2773eb53074673,2020.4.29,2020.5.20,d48d8f54a77f51db3b106fb881d7b8ef120a5d0d,2020.6.1,21,11,Crash
+tensorflow/model-optimization,393,https://github.com/tensorflow/model-optimization/issues/393,closed,wont fix,,,,2020.5.16,,,,,OC
+tensorflow/model-optimization,390,https://github.com/tensorflow/model-optimization/issues/390,closed,"user,api",,,,2020.5.14,,,,,Crash
+tensorflow/model-optimization,386,https://github.com/tensorflow/model-optimization/issues/386,closed,fixed,,,,2020.5.13,,,,,Crash
+tensorflow/model-optimization,381,https://github.com/tensorflow/model-optimization/issues/381,open,not resolved,,,,2020.5.11,,,,,Crash
+tensorflow/model-optimization,378,https://github.com/tensorflow/model-optimization/issues/378,closed,resolved,https://github.com/tensorflow/model-optimization/pull/402,daf89773d4acdb720e6cb9c925d16d88fadc7ae6,2019.10.3,2020.5.6,86ecc969588340b93647b0e52cbe162c02b11cda,2020.5.26,216,20,Crash
+tensorflow/model-optimization,374,https://github.com/tensorflow/model-optimization/issues/374,closed,"user,api",,,,2020.4.28,,,,,Crash
+tensorflow/model-optimization,372,https://github.com/tensorflow/model-optimization/issues/372,closed,resolved,https://github.com/tensorflow/model-optimization/pull/586,,,2020.4.24,1fbc2ed46927105419128e90a6d4570d4f42b533,2020.11.4,,194,Crash
+tensorflow/model-optimization,368,https://github.com/tensorflow/model-optimization/issues/368,closed,fixed,,,,2020.4.20,,,,,MAD
+tensorflow/model-optimization,367,https://github.com/tensorflow/model-optimization/issues/367,open,not resolved,,,,2020.4.18,,,,,Crash
+tensorflow/model-optimization,363,https://github.com/tensorflow/model-optimization/issues/363,open,not resolved,,,,2020.4.17,,,,,Crash
+tensorflow/model-optimization,352,https://github.com/tensorflow/model-optimization/issues/352,closed,not supported,,,,2020.4.8,,,,,Crash
+tensorflow/model-optimization,341,https://github.com/tensorflow/model-optimization/issues/341,closed,resolved,https://github.com/tensorflow/tensorflow/issues/27880,,,2020.4.7,,,,,Crash
+tensorflow/model-optimization,332,https://github.com/tensorflow/model-optimization/issues/332,closed,fixed,,,,2020.4.2,,,,,Crash
+tensorflow/model-optimization,317,https://github.com/tensorflow/model-optimization/issues/317,closed,fixed,,,,2020.3.27,,,,,OC
+tensorflow/model-optimization,316,https://github.com/tensorflow/model-optimization/issues/316,closed,"user,api",,,,2020.3.27,,,,,Crash
+tensorflow/model-optimization,309,https://github.com/tensorflow/model-optimization/issues/309,closed,refer to #368,,,,2020.3.21,,,,,MAD
+tensorflow/model-optimization,308,https://github.com/tensorflow/model-optimization/issues/308,closed,not a bug,,,,2020.3.20,,,,,Crash
+tensorflow/model-optimization,300,https://github.com/tensorflow/model-optimization/issues/300,closed,inactive,,,,2020.3.17,,,,,Crash
+tensorflow/model-optimization,296,https://github.com/tensorflow/model-optimization/issues/296,closed,not repro,,,,2020.3.15,,,,,Crash
+tensorflow/model-optimization,295,https://github.com/tensorflow/model-optimization/issues/295,closed,not repro,,,,2020.3.15,,,,,Crash
+tensorflow/model-optimization,292,https://github.com/tensorflow/model-optimization/issues/292,closed,resolved,https://github.com/tensorflow/model-optimization/pull/322,c634249775efbe4d8cf6edb67044200e28dcd101,2020.2.8,2020.3.11,b6a97f26e240c39a1d4290f4639f7136168774aa,2020.5.31,33,80,Crash
+tensorflow/model-optimization,224,https://github.com/tensorflow/model-optimization/issues/224,closed,fixed,,,,2020.1.17,,,,,Crash
+tensorflow/model-optimization,52,https://github.com/tensorflow/model-optimization/issues/52,closed,not a bug,,,,2019.8.1,,,,,Crash
+tensorflow/model-optimization,46,https://github.com/tensorflow/model-optimization/issues/46,open,not resolved,,,,2019.7.29,,,,,Crash
+tensorflow/model-optimization,3,https://github.com/tensorflow/model-optimization/issues/3,closed,"user,api",,,,2019.5.25,,,,,Crash
+,,,284,,114,,,,,,,,
